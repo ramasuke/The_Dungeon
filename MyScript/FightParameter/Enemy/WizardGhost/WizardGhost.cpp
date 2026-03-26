@@ -1,0 +1,2 @@
+﻿
+#include "WizardGhost.h"

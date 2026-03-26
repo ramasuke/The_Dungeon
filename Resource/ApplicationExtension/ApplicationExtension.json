@@ -1,0 +1,428 @@
+{
+    "applicationExtension": {
+        "playerParam": {
+            "ptr_wrapper": {
+                "id": 2147483649,
+                "data": {
+                    "normalFormParam": {
+                        "subject_maxHealth": {
+                            "value": {
+                                "value": 8
+                            }
+                        },
+                        "subject_health": {
+                            "value": {
+                                "value": 8
+                            }
+                        },
+                        "subject_physicsAttackPower": {
+                            "value": {
+                                "value": 2
+                            }
+                        },
+                        "subject_walkSpeed": {
+                            "value": 0.03500000014901161
+                        },
+                        "subject_attackStateDuration": {
+                            "value": 43
+                        },
+                        "subject_attackStateOnAttackDamageDuration": {
+                            "value": 14
+                        },
+                        "subject_attackDistance": {
+                            "value": 30.0
+                        },
+                        "subject_goInsaneDuration": {
+                            "value": 30
+                        },
+                        "subject_onDarkHealStateDuration": {
+                            "value": 40
+                        },
+                        "subject_onDamageStateDuration": {
+                            "value": 14
+                        },
+                        "subject_maxCollectMadness": {
+                            "value": {
+                                "value": 34
+                            }
+                        },
+                        "subject_skillEffectNeedMadness": {
+                            "value": {
+                                "value": 5
+                            }
+                        },
+                        "subject_darkHealNeedMadness": {
+                            "value": {
+                                "value": 15
+                            }
+                        },
+                        "subject_darkHealNeedDuration": {
+                            "value": 30
+                        },
+                        "subject_darkHealCount": {
+                            "value": {
+                                "value": 3
+                            }
+                        },
+                        "subject_toDarkFormNeedMadness": {
+                            "value": {
+                                "value": 34
+                            }
+                        },
+                        "subject_toDarkFormNeedDuration": {
+                            "value": 100
+                        },
+                        "subject_currentMadness": {
+                            "value": {
+                                "value": 0
+                            }
+                        },
+                        "animation": {
+                            "idleAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483650,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/Human_Soldier_Sword_Shield_Idle-Sheet.png",
+                                        "splitCount": 6,
+                                        "splitNum": {
+                                            "x_": 6,
+                                            "y_": 1
+                                        },
+                                        "splitSize": {
+                                            "x_": 96,
+                                            "y_": 96
+                                        },
+                                        "effectDuration_frame": 10,
+                                        "isRoop": true
+                                    }
+                                }
+                            },
+                            "walkAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483651,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/Human_Soldier_Sword_Shield_Walk-Sheet.png",
+                                        "splitCount": 8,
+                                        "splitNum": {
+                                            "x_": 8,
+                                            "y_": 1
+                                        },
+                                        "splitSize": {
+                                            "x_": 96,
+                                            "y_": 96
+                                        },
+                                        "effectDuration_frame": 4,
+                                        "isRoop": true
+                                    }
+                                }
+                            },
+                            "attackAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483652,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/Human_Soldier_Sword_Shield_Attack1-Sheet.png",
+                                        "splitCount": 8,
+                                        "splitNum": {
+                                            "x_": 8,
+                                            "y_": 1
+                                        },
+                                        "splitSize": {
+                                            "x_": 96,
+                                            "y_": 96
+                                        },
+                                        "effectDuration_frame": 6,
+                                        "isRoop": true
+                                    }
+                                }
+                            },
+                            "goInsaneAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483653,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/",
+                                        "splitCount": 0,
+                                        "splitNum": {
+                                            "x_": 0,
+                                            "y_": 0
+                                        },
+                                        "splitSize": {
+                                            "x_": 0,
+                                            "y_": 0
+                                        },
+                                        "effectDuration_frame": 3,
+                                        "isRoop": false
+                                    }
+                                }
+                            },
+                            "consumptionMadnessAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483654,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/Human_Soldier_Sword_Shield_ChargeMadness-Sheet.png",
+                                        "splitCount": 4,
+                                        "splitNum": {
+                                            "x_": 4,
+                                            "y_": 1
+                                        },
+                                        "splitSize": {
+                                            "x_": 96,
+                                            "y_": 96
+                                        },
+                                        "effectDuration_frame": 5,
+                                        "isRoop": true
+                                    }
+                                }
+                            },
+                            "onDamageAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483655,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/Human_Soldier_Sword_Shield_Hurt-Sheet.png",
+                                        "splitCount": 4,
+                                        "splitNum": {
+                                            "x_": 4,
+                                            "y_": 1
+                                        },
+                                        "splitSize": {
+                                            "x_": 96,
+                                            "y_": 96
+                                        },
+                                        "effectDuration_frame": 3,
+                                        "isRoop": true
+                                    }
+                                }
+                            },
+                            "onDeathAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483656,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/Human_Soldier_Sword_Shield_Death-Sheet.png",
+                                        "splitCount": 10,
+                                        "splitNum": {
+                                            "x_": 10,
+                                            "y_": 1
+                                        },
+                                        "splitSize": {
+                                            "x_": 96,
+                                            "y_": 96
+                                        },
+                                        "effectDuration_frame": 16,
+                                        "isRoop": false
+                                    }
+                                }
+                            }
+                        },
+                        "sound": {
+                            "walkSound": {
+                                "volume": 250,
+                                "resourceFilePath": "Resource/Sound/SE/WalkOnAsphalt.mp3"
+                            },
+                            "onAttackSound": {
+                                "volume": 150,
+                                "resourceFilePath": "Resource/Sound/SE/CutForSword.mp3"
+                            },
+                            "onDamageSound": {
+                                "volume": 180,
+                                "resourceFilePath": "Resource/Sound/SE/HitDamage.mp3"
+                            },
+                            "onDarkHealSound": {
+                                "volume": 100,
+                                "resourceFilePath": ""
+                            },
+                            "onDeathSound": {
+                                "volume": 100,
+                                "resourceFilePath": ""
+                            }
+                        }
+                    },
+                    "darkFormParam": {
+                        "subject_health": {
+                            "value": {
+                                "value": 30
+                            }
+                        },
+                        "subject_physicsAttackPower": {
+                            "value": {
+                                "value": 8
+                            }
+                        },
+                        "subject_walkSpeed": {
+                            "value": 0.05400000140070915
+                        },
+                        "subject_attackStateDuration": {
+                            "value": 56
+                        },
+                        "subject_attackStateOnAttackDamageDuration": {
+                            "value": 15
+                        },
+                        "subject_attackDistance": {
+                            "value": 10.0
+                        },
+                        "subject_dashAttackOffsetPosX": {
+                            "value": 30.0
+                        },
+                        "subject_dashAttackEndOffsetPosX": {
+                            "value": 100.0
+                        },
+                        "subject_dashAttackStateDuration": {
+                            "value": 36
+                        },
+                        "subject_dashAttackStateOnAttackDamageDuration": {
+                            "value": 10
+                        },
+                        "subject_dashAttackDistance": {
+                            "value": 10.0
+                        },
+                        "subject_onDamageStateDuration": {
+                            "value": 5
+                        },
+                        "subject_onReleaseFormStateDuration": {
+                            "value": 60
+                        },
+                        "animation": {
+                            "idleAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483657,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/DarkFormIdle.png",
+                                        "splitCount": 7,
+                                        "splitNum": {
+                                            "x_": 7,
+                                            "y_": 1
+                                        },
+                                        "splitSize": {
+                                            "x_": 64,
+                                            "y_": 64
+                                        },
+                                        "effectDuration_frame": 6,
+                                        "isRoop": true
+                                    }
+                                }
+                            },
+                            "walkAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483658,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/DarkFormWalk.png",
+                                        "splitCount": 8,
+                                        "splitNum": {
+                                            "x_": 8,
+                                            "y_": 1
+                                        },
+                                        "splitSize": {
+                                            "x_": 64,
+                                            "y_": 64
+                                        },
+                                        "effectDuration_frame": 4,
+                                        "isRoop": true
+                                    }
+                                }
+                            },
+                            "attackAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483659,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/DarkFormAttack.png",
+                                        "splitCount": 14,
+                                        "splitNum": {
+                                            "x_": 14,
+                                            "y_": 1
+                                        },
+                                        "splitSize": {
+                                            "x_": 64,
+                                            "y_": 64
+                                        },
+                                        "effectDuration_frame": 4,
+                                        "isRoop": true
+                                    }
+                                }
+                            },
+                            "dashAttackAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483660,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/DarkFormDashAttack.png",
+                                        "splitCount": 6,
+                                        "splitNum": {
+                                            "x_": 6,
+                                            "y_": 1
+                                        },
+                                        "splitSize": {
+                                            "x_": 64,
+                                            "y_": 64
+                                        },
+                                        "effectDuration_frame": 6,
+                                        "isRoop": true
+                                    }
+                                }
+                            },
+                            "onDamageAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483661,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/",
+                                        "splitCount": 0,
+                                        "splitNum": {
+                                            "x_": 0,
+                                            "y_": 0
+                                        },
+                                        "splitSize": {
+                                            "x_": 0,
+                                            "y_": 0
+                                        },
+                                        "effectDuration_frame": 3,
+                                        "isRoop": false
+                                    }
+                                }
+                            },
+                            "onReleaseFormAnimation": {
+                                "ptr_wrapper": {
+                                    "id": 2147483662,
+                                    "data": {
+                                        "resourcePath": "Resource/Animation/",
+                                        "splitCount": 0,
+                                        "splitNum": {
+                                            "x_": 0,
+                                            "y_": 0
+                                        },
+                                        "splitSize": {
+                                            "x_": 0,
+                                            "y_": 0
+                                        },
+                                        "effectDuration_frame": 3,
+                                        "isRoop": false
+                                    }
+                                }
+                            }
+                        },
+                        "sound": {
+                            "walkSound": {
+                                "volume": 100,
+                                "resourceFilePath": ""
+                            },
+                            "onAttackSound": {
+                                "volume": 100,
+                                "resourceFilePath": ""
+                            },
+                            "onDamageSound": {
+                                "volume": 100,
+                                "resourceFilePath": ""
+                            },
+                            "onReleaseFormSound": {
+                                "volume": 100,
+                                "resourceFilePath": ""
+                            }
+                        }
+                    },
+                    "inventory": {
+                        "skill": {
+                            "value": {
+                                "polymorphic_id": 0
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

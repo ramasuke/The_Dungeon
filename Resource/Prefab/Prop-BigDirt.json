@@ -1,0 +1,33 @@
+{
+    "name": "Prop-BigDirt",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": -300.0,
+                        "y_": 0.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "SpriteRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderFilePath": "Resource/Sprite/Prop/BigDirt.png",
+                    "renderOrder": -1
+                }
+            }
+        }
+    ]
+}

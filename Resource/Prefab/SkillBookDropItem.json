@@ -1,0 +1,84 @@
+{
+    "name": "SkillBookDropItem",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 0.0,
+                        "y_": 0.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 0.15000000596046449
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "SpriteRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderFilePath": "Resource/Sprite/Book/Book00.png",
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": true,
+                    "size": {
+                        "x_": 10.0,
+                        "y_": 10.0
+                    },
+                    "bodyTypeId": 2,
+                    "density": 1.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": false,
+                    "enableHitEvent": false
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "SkillBookDropItemObject",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "skillItem": {
+                        "polymorphic_id": 2147483653,
+                        "polymorphic_name": "Skill::SummonLightning",
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "name": "SummonLightningSkill",
+                                "spriteResourceFilePath": "",
+                                "summonLightningPrefabPath": "Resource/Prefab/ThunderObject.json",
+                                "thunderPower": {
+                                    "value": 0,
+                                    "numbDuration": 30
+                                },
+                                "summonThunderDistance": 100.0,
+                                "summonThunderOffset": {
+                                    "x_": 0.0,
+                                    "y_": 0.0
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

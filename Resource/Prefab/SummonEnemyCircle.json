@@ -1,0 +1,62 @@
+{
+    "name": "SummonEnemyCircle",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": -400.0,
+                        "y_": 0.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.4299999475479127
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "Enemy::SummonEnemyCircle",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "animation": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/DropDust.png",
+                                "splitCount": 4,
+                                "splitNum": {
+                                    "x_": 4,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 32,
+                                    "y_": 32
+                                },
+                                "effectDuration_frame": 4,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "onSummonDuration": 12
+                }
+            }
+        }
+    ]
+}

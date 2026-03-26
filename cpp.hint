@@ -1,0 +1,4 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define CEREAL_REGISTER_TYPE(T) namespace cereal { namespace detail { template <> struct binding_name<T> { STATIC_CONSTEXPR char const * name() { return #T; } }; } } CEREAL_BIND_TO_ARCHIVES(T)

@@ -1,0 +1,77 @@
+{
+    "name": "Projectile-Enemy-StoneArrow",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 300.0,
+                        "y_": -200.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.5
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": true,
+                    "size": {
+                        "x_": 20.0,
+                        "y_": 4.0
+                    },
+                    "bodyTypeId": 2,
+                    "density": 1.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": false,
+                    "enableHitEvent": false
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "SpriteRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderFilePath": "Resource/Animation/Projectile/Arrow.png",
+                    "renderOrder": 1
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "Enemy::EnemyBoxAttackArea",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {}
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483653,
+            "polymorphic_name": "Projectile::StoneArrow",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "damage": {
+                        "value": 1
+                    },
+                    "speed": 0.10000000149011612
+                }
+            }
+        }
+    ]
+}

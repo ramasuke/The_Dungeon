@@ -1,0 +1,62 @@
+{
+    "name": "OnDestroyTorchParticle",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 100.0,
+                        "y_": 100.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "Particle",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "animationModel": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/upFire.png",
+                                "splitCount": 14,
+                                "splitNum": {
+                                    "x_": 14,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 45,
+                                    "y_": 90
+                                },
+                                "effectDuration_frame": 7,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "onDestroyParticleDuration": 500
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 11
+                }
+            }
+        }
+    ]
+}

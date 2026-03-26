@@ -1,0 +1,102 @@
+{
+    "name": "Prop-WoodChest",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 100.0,
+                        "y_": 800.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 2.299999952316284
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": true,
+                    "size": {
+                        "x_": 10.0,
+                        "y_": 10.0
+                    },
+                    "bodyTypeId": 1,
+                    "density": 1.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": false,
+                    "enableHitEvent": false
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "Prop::WoodChest",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "powerUpItemPrefabPath": "Resource/Prefab/PowerUpItem-Physics.json",
+                    "idleAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Prop/IdleChest.png",
+                                "splitCount": 1,
+                                "splitNum": {
+                                    "x_": 1,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 16,
+                                    "y_": 17
+                                },
+                                "effectDuration_frame": 13,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "openAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483650,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Prop/OpeningChest.png",
+                                "splitCount": 3,
+                                "splitNum": {
+                                    "x_": 3,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 16,
+                                    "y_": 17
+                                },
+                                "effectDuration_frame": 13,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "openDuration": 39
+                }
+            }
+        }
+    ]
+}

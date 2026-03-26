@@ -1,0 +1,217 @@
+{
+    "Entities": [
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{30BADEAF-9924-4073-8324-E081884B70E9}"
+                    },
+                    "value1": "Movie",
+                    "value2": [
+                        {
+                            "polymorphic_id": 2147483649,
+                            "polymorphic_name": "Transform",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 2045.0,
+                                        "y_": 500.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 0.7599999904632568
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483650,
+                            "polymorphic_name": "MovieRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "resourceFilePath": "Resource/Movie/UseSkillExplain.mp4",
+                                    "transparentColor": {
+                                        "r": 0,
+                                        "g": 255,
+                                        "b": 0
+                                    },
+                                    "movieHandle": 69993123,
+                                    "renderOrder": 2000,
+                                    "isLoop": true,
+                                    "isFilter": false
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483651,
+                            "polymorphic_name": "AutoMove",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "move": {
+                                        "x_": -20.0,
+                                        "y_": 0.0
+                                    },
+                                    "moveDuration": 65
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{79EAA6EF-006E-45BB-A61F-43F250192712}"
+                    },
+                    "value1": "WoodFrame",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 2045.0,
+                                        "y_": 500.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 9.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483652,
+                            "polymorphic_name": "ImageRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/WoodFrame.png",
+                                    "renderOrder": 2001
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 3,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "move": {
+                                        "x_": -20.0,
+                                        "y_": 0.0
+                                    },
+                                    "moveDuration": 65
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{855506F8-3253-47F5-AB73-AE1D0AC22405}"
+                    },
+                    "value1": "UseSkillWayExplainText",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 2045.0,
+                                        "y_": 160.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 0.5
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 4,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/UseSkillWayExplainText.png",
+                                    "renderOrder": 2000
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 3,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "move": {
+                                        "x_": -20.0,
+                                        "y_": 0.0
+                                    },
+                                    "moveDuration": 65
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{F1F010D6-1D2E-4990-BC28-B7145CF52FEB}"
+                    },
+                    "value1": "UnloadSceneForInputAction",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 2681.6005859375,
+                                        "y_": 595.800048828125
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483653,
+                            "polymorphic_name": "OnUnloadSceneForInputAction",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "unloadSceneFilePath": "Resource/Scene/UseSkillWayScene.json"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

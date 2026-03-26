@@ -1,0 +1,75 @@
+{
+    "Entities": [
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{2ABC49DD-315A-4BC4-B2C5-913EC20CA923}"
+                    },
+                    "value1": "LoadingIcon",
+                    "value2": [
+                        {
+                            "polymorphic_id": 2147483649,
+                            "polymorphic_name": "Transform",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 1400.0,
+                                        "y_": 840.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 2.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483650,
+                            "polymorphic_name": "ImageRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Animation/NowLoadingIcon.png",
+                                    "renderOrder": 3000
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483651,
+                            "polymorphic_name": "LoadingScene::LoadingIcon",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "animation": {
+                                        "ptr_wrapper": {
+                                            "id": 2147483649,
+                                            "data": {
+                                                "resourcePath": "Resource/Animation/NowLoadingIcon.png",
+                                                "splitCount": 12,
+                                                "splitNum": {
+                                                    "x_": 12,
+                                                    "y_": 1
+                                                },
+                                                "splitSize": {
+                                                    "x_": 67,
+                                                    "y_": 65
+                                                },
+                                                "effectDuration_frame": 3,
+                                                "isRoop": true
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

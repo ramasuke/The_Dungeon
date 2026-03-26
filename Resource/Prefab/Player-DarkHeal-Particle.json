@@ -1,0 +1,62 @@
+{
+    "name": "Player-DarkHeal-Particle",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": -300.0,
+                        "y_": 200.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 11
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "Particle",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "animationModel": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/PlayerDarkHealParticle.png",
+                                "splitCount": 4,
+                                "splitNum": {
+                                    "x_": 4,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 120,
+                                    "y_": 192
+                                },
+                                "effectDuration_frame": 6,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "onDestroyParticleDuration": 300
+                }
+            }
+        }
+    ]
+}

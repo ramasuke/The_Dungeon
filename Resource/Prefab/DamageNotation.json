@@ -1,0 +1,55 @@
+{
+    "name": "DamageNotation",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": -84.0,
+                        "y_": 706.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "DamageNotation",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "moveTweenDirection": {
+                        "x_": 0.0,
+                        "y_": 2.0
+                    },
+                    "despawnDuration": 40
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "TextRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "worldSpace": false,
+                    "text": "",
+                    "color": {
+                        "r": 139,
+                        "g": 139,
+                        "b": 0
+                    },
+                    "fontFilePath": "",
+                    "renderOrder": 0
+                }
+            }
+        }
+    ]
+}

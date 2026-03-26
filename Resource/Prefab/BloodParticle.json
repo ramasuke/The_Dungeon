@@ -1,0 +1,62 @@
+{
+    "name": "BloodParticle",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": -300.0,
+                        "y_": 100.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "Particle",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "animationModel": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/blood0.png",
+                                "splitCount": 24,
+                                "splitNum": {
+                                    "x_": 6,
+                                    "y_": 4
+                                },
+                                "splitSize": {
+                                    "x_": 100,
+                                    "y_": 100
+                                },
+                                "effectDuration_frame": 2,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "onDestroyParticleDuration": 100
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,3148 @@
+{
+    "Entities": [
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{8EE1AE21-2F29-4BFF-A05F-A8D26ED3A033}"
+                    },
+                    "value1": "PlayerAvatar",
+                    "value2": [
+                        {
+                            "polymorphic_id": 2147483649,
+                            "polymorphic_name": "Transform",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 2093.19970703125,
+                                        "y_": 2732.599609375
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 3.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483650,
+                            "polymorphic_name": "AnimationRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderOrder": 3
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483651,
+                            "polymorphic_name": "BoxCollider",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "isSensor": false,
+                                    "size": {
+                                        "x_": 15.0,
+                                        "y_": 30.0
+                                    },
+                                    "bodyTypeId": 2,
+                                    "density": 1.0,
+                                    "friction": 0.30000001192092898,
+                                    "enableContactEvent": true,
+                                    "enableHitEvent": true
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483652,
+                            "polymorphic_name": "Player::PlayerAvatar",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {}
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{18964CE8-63F1-4A25-B620-7B4721330CF8}"
+                    },
+                    "value1": "FloorTileMap",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 2093.19970703125,
+                                        "y_": 2732.599609375
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483653,
+                            "polymorphic_name": "TileMap",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "allRleTileId": [
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 43
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 12
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 75
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 16
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 40
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 18
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 72
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 39
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 20
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 71
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 38
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 22
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 70
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 38
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 22
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 70
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 39
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 20
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 71
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 40
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 18
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 72
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 16
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 47
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 79
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 47
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 79
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 47
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 79
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 47
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 79
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 47
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 79
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 47
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 79
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 47
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 79
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 47
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 79
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 201,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ]
+                                    ],
+                                    "replaceTilePresetId": 201,
+                                    "gridCellSize": 43.0,
+                                    "isPathFindingMap": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{C5C8CE44-939C-4A6C-B9F6-41CF35EF6FE8}"
+                    },
+                    "value1": "WallTileMap",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 2017.6002197265626,
+                                        "y_": 2631.8076171875
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 5,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "allRleTileId": [
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 42
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 12
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 74
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 12
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 40
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 72
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 39
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 16
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 71
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 38
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 18
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 70
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 20
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 22
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 24
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 36
+                                            },
+                                            {
+                                                "presetId": 224,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 232,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 22
+                                            },
+                                            {
+                                                "presetId": 231,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 226,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 68
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 37
+                                            },
+                                            {
+                                                "presetId": 224,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 232,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 20
+                                            },
+                                            {
+                                                "presetId": 231,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 226,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 69
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 38
+                                            },
+                                            {
+                                                "presetId": 224,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 232,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 18
+                                            },
+                                            {
+                                                "presetId": 231,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 226,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 70
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 39
+                                            },
+                                            {
+                                                "presetId": 224,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 232,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 16
+                                            },
+                                            {
+                                                "presetId": 231,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 226,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 71
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 40
+                                            },
+                                            {
+                                                "presetId": 224,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 232,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 231,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 226,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 72
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 224,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 225,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": 232,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": 231,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 225,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": 226,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 46
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 78
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 46
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 78
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 46
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 78
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 46
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 78
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 46
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 78
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 46
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 78
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 5
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 4
+                                            },
+                                            {
+                                                "presetId": 222,
+                                                "runLength": 5
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 221,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 223,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 41
+                                            },
+                                            {
+                                                "presetId": 224,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": 225,
+                                                "runLength": 14
+                                            },
+                                            {
+                                                "presetId": 226,
+                                                "runLength": 1
+                                            },
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 73
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ],
+                                        [
+                                            {
+                                                "presetId": -1,
+                                                "runLength": 130
+                                            }
+                                        ]
+                                    ],
+                                    "replaceTilePresetId": 223,
+                                    "gridCellSize": 43.0,
+                                    "isPathFindingMap": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{1AE5AAE5-91DB-4EE1-BA68-B1EABA85C932}"
+                    },
+                    "value1": "Enemy-DarkMushroom",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 2218.400390625,
+                                        "y_": 2586.59814453125
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 2.200000047683716
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderOrder": 0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 3,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "isSensor": false,
+                                    "size": {
+                                        "x_": 30.0,
+                                        "y_": 75.0
+                                    },
+                                    "bodyTypeId": 1,
+                                    "density": 1.0,
+                                    "friction": 0.30000001192092898,
+                                    "enableContactEvent": true,
+                                    "enableHitEvent": true
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483654,
+                            "polymorphic_name": "Enemy::DarkMushroom",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "health": {
+                                        "value": 35
+                                    },
+                                    "onDamageDropEnergyCount": 2,
+                                    "onDamageDropEnergy": {
+                                        "value": 1
+                                    },
+                                    "idleAnimation": {
+                                        "ptr_wrapper": {
+                                            "id": 2147483649,
+                                            "data": {
+                                                "resourcePath": "Resource/Animation/Enemy/DarkMushroom/Idle.png",
+                                                "splitCount": 7,
+                                                "splitNum": {
+                                                    "x_": 7,
+                                                    "y_": 1
+                                                },
+                                                "splitSize": {
+                                                    "x_": 80,
+                                                    "y_": 64
+                                                },
+                                                "effectDuration_frame": 4,
+                                                "isRoop": true
+                                            }
+                                        }
+                                    },
+                                    "hurtAnimation": {
+                                        "ptr_wrapper": {
+                                            "id": 2147483650,
+                                            "data": {
+                                                "resourcePath": "Resource/Animation/Enemy/DarkMushroom/Hurt.png",
+                                                "splitCount": 5,
+                                                "splitNum": {
+                                                    "x_": 5,
+                                                    "y_": 1
+                                                },
+                                                "splitSize": {
+                                                    "x_": 80,
+                                                    "y_": 64
+                                                },
+                                                "effectDuration_frame": 3,
+                                                "isRoop": true
+                                            }
+                                        }
+                                    },
+                                    "deathAnimation": {
+                                        "ptr_wrapper": {
+                                            "id": 2147483651,
+                                            "data": {
+                                                "resourcePath": "Resource/Animation/Enemy/DarkMushroom/Death.png",
+                                                "splitCount": 15,
+                                                "splitNum": {
+                                                    "x_": 15,
+                                                    "y_": 1
+                                                },
+                                                "splitSize": {
+                                                    "x_": 80,
+                                                    "y_": 64
+                                                },
+                                                "effectDuration_frame": 7,
+                                                "isRoop": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{AD67CF57-FB1C-451A-9009-1F9A3B9453C8}"
+                    },
+                    "value1": "BossRoom",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 2088.39990234375,
+                                        "y_": 1631.0001220703126
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483655,
+                            "polymorphic_name": "Map::Room::DungeonRoom",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "spawnEntranceModels": [
+                                        {
+                                            "position": {
+                                                "x_": 2087.0,
+                                                "y_": 2070.0
+                                            },
+                                            "areaSize": {
+                                                "x_": 500.0,
+                                                "y_": 50.0
+                                            }
+                                        }
+                                    ],
+                                    "onEnterPlayerEvent": [
+                                        {
+                                            "polymorphic_id": 2147483656,
+                                            "polymorphic_name": "Map::Room::Event::BossFight",
+                                            "ptr_wrapper": {
+                                                "valid": 1,
+                                                "data": {
+                                                    "value0": {},
+                                                    "spawnBoss": {
+                                                        "onSpawnEnemyPos": {
+                                                            "x_": 2088.39990234375,
+                                                            "y_": 1631.0
+                                                        },
+                                                        "spawnEnemyPrefabPath": "Resource/Prefab/Enemy-BossSlime.json"
+                                                    },
+                                                    "spawnBossSound": {
+                                                        "volume": 100,
+                                                        "resourceFilePath": "Resource/Sound/SE/"
+                                                    },
+                                                    "bossBgm": {
+                                                        "volume": 100,
+                                                        "resourceFilePath": "Resource/Sound/BGM/Graviton_Down.mp3"
+                                                    },
+                                                    "onDeathBossSummonModels": [
+                                                        {
+                                                            "onSpawnEnemyPos": {
+                                                                "x_": 2088.39990234375,
+                                                                "y_": 1300.0
+                                                            },
+                                                            "spawnEnemyPrefabPath": "Resource/Prefab/1-3Portal.json"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "polymorphic_id": 2147483657,
+                                            "polymorphic_name": "Map::Room::Event::OnPlaySoundEffect",
+                                            "ptr_wrapper": {
+                                                "valid": 1,
+                                                "data": {
+                                                    "value0": {},
+                                                    "sounds": [
+                                                        {
+                                                            "volume": 170,
+                                                            "resourceFilePath": "Resource/Sound/SE/Elastic.mp3"
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{15B2733E-1F21-473F-8961-51A5B43B8D3E}"
+                    },
+                    "value1": "UnLoadLoadingScene",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 846.3997802734375,
+                                        "y_": 4121.8017578125
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483658,
+                            "polymorphic_name": "LoadingScene::UnLoadLoadingSceneComponent",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {}
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

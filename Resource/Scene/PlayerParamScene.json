@@ -1,0 +1,290 @@
+{
+    "Entities": [
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{0F1480D1-5230-4CD5-A863-C8480F1DFDAF}"
+                    },
+                    "value1": "Player-HealthGauge",
+                    "value2": [
+                        {
+                            "polymorphic_id": 2147483649,
+                            "polymorphic_name": "Transform",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 280.0,
+                                        "y_": 80.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 8.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483650,
+                            "polymorphic_name": "ImageRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Animation/PlayerHealthBarUi.png",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483651,
+                            "polymorphic_name": "GamePlayScene::PlayerParamView::HealthBar",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "barAnimation": {
+                                        "ptr_wrapper": {
+                                            "id": 2147483649,
+                                            "data": {
+                                                "resourcePath": "Resource/Animation/PlayerHealthBarUi.png",
+                                                "splitCount": 9,
+                                                "splitNum": {
+                                                    "x_": 1,
+                                                    "y_": 9
+                                                },
+                                                "splitSize": {
+                                                    "x_": 64,
+                                                    "y_": 16
+                                                },
+                                                "effectDuration_frame": 10,
+                                                "isRoop": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{2ED2C080-5618-45A2-A7D3-EE276F52C19C}"
+                    },
+                    "value1": "Player-MadnessGauge",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 747.989990234375,
+                                        "y_": 510.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 1.100000023841858
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/PlayerHealthBarUi.png",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483652,
+                            "polymorphic_name": "GamePlayScene::PlayerParamView::MadnessBar",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "barAnimation": {
+                                        "ptr_wrapper": {
+                                            "id": 2147483650,
+                                            "data": {
+                                                "resourcePath": "Resource/Animation/MadnessBar.png",
+                                                "splitCount": 35,
+                                                "splitNum": {
+                                                    "x_": 35,
+                                                    "y_": 1
+                                                },
+                                                "splitSize": {
+                                                    "x_": 90,
+                                                    "y_": 17
+                                                },
+                                                "effectDuration_frame": 10,
+                                                "isRoop": false
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{CA9FFFA5-B5D5-4694-A776-6C2E35EC6EF8}"
+                    },
+                    "value1": "PlayerParam-Presenter",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 0.0,
+                                        "y_": 0.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483653,
+                            "polymorphic_name": "GamePlayScene::Presenter",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "playerParamView": {
+                                        "healthBarRef": {
+                                            "entityGUID: ": {
+                                                "value0": "{0F1480D1-5230-4CD5-A863-C8480F1DFDAF}"
+                                            }
+                                        },
+                                        "madnessBarRef": {
+                                            "entityGUID: ": {
+                                                "value0": "{2ED2C080-5618-45A2-A7D3-EE276F52C19C}"
+                                            }
+                                        },
+                                        "skillSlotRef": {
+                                            "entityGUID: ": {
+                                                "value0": "{9EFB4D22-6B60-492B-AB9D-8DC7868F9167}"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{9EFB4D22-6B60-492B-AB9D-8DC7868F9167}"
+                    },
+                    "value1": "Player-SkillSlot",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 740.0,
+                                        "y_": 830.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 0.30000001192092898
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483654,
+                            "polymorphic_name": "GamePlayScene::PlayerParamView::SkillSlotView",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {}
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{20725D7C-3F7D-4899-9D44-F49568B7B747}"
+                    },
+                    "value1": "Player-SkillSlotFrame",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 740.0,
+                                        "y_": 830.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 3.5
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/SlotFrame.png",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

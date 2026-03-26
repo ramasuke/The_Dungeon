@@ -1,0 +1,53 @@
+{
+    "name": "StonePillar",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 100.0,
+                        "y_": 0.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 3.299999952316284
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "SpriteRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderFilePath": "Resource/Sprite/Prop/StonePillar.png",
+                    "renderOrder": 11
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": false,
+                    "size": {
+                        "x_": 13.0,
+                        "y_": 50.0
+                    },
+                    "bodyTypeId": 1,
+                    "density": 1.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": false,
+                    "enableHitEvent": false
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Prop-BreakableYellowPot",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": -100.0,
+                        "y_": -200.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 2.9000000953674318
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "SpriteRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderFilePath": "Resource/Sprite/Prop/breakableYellowPot.png",
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "Prop::BreakablePotObject",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {}
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": false,
+                    "size": {
+                        "x_": 20.0,
+                        "y_": 9.0
+                    },
+                    "bodyTypeId": 2,
+                    "density": 8.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": true,
+                    "enableHitEvent": true
+                }
+            }
+        }
+    ]
+}

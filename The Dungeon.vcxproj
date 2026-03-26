@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application\Editor\Camera\EditorCamera.cpp" />
+    <ClCompile Include="Application\Editor\EditorApplication.cpp" />
+    <ClCompile Include="Application\Fps\ApplicationFps.cpp" />
+    <ClCompile Include="Application\Game\Camera\GameCamera.cpp" />
+    <ClCompile Include="Application\Game\GameApplication.cpp" />
+    <ClCompile Include="Application\IApplication\IApplication.cpp" />
+    <ClCompile Include="Application\Screen\ScreenHelper.cpp" />
+    <ClCompile Include="BasicallyParameter\Guid\Guid.cpp" />
+    <ClCompile Include="BasicallyParameter\IContainer\IContainer.cpp" />
+    <ClCompile Include="BasicallyParameter\MouseState\MouseState.cpp" />
+    <ClCompile Include="BasicallyParameter\ReadOnlyReactiveContext\ReadOnlyReactiveContext.cpp" />
+    <ClCompile Include="BasicallyParameter\SerializableSubject\Subject.cpp" />
+    <ClCompile Include="BasicallyParameter\SerializableSubject\unit\unit.cpp" />
+    <ClCompile Include="BasicallyParameter\SerializeComponentRef\ComponentRef.cpp" />
+    <ClCompile Include="BasicallyParameter\Sound\Handle\SoundHandle.cpp" />
+    <ClCompile Include="BasicallyParameter\Sound\Play\SoundPlay.cpp" />
+    <ClCompile Include="BasicallyParameter\Vector2Int\Vector2Int.cpp" />
+    <ClCompile Include="BasicallyParameter\Vector2\Vector2.cpp" />
+    <ClCompile Include="Component\Component.cpp" />
+    <ClCompile Include="Component\Content\Basically\Collider\Box\BoxCollider.cpp" />
+    <ClCompile Include="Component\Content\Basically\Collider\Collider.cpp" />
+    <ClCompile Include="Component\Content\Basically\Color\Color.cpp" />
+    <ClCompile Include="Component\Content\Basically\ImageRenderer\ImageRenderer.cpp" />
+    <ClCompile Include="Component\Content\Basically\MovieRenderer\MovieRenderer.cpp" />
+    <ClCompile Include="Component\Content\Basically\Particle\Particle.cpp" />
+    <ClCompile Include="Component\Content\Basically\Renderer\AnimationRenderer\AnimationRenderer.cpp" />
+    <ClCompile Include="Component\Content\Basically\Renderer\AnimationRenderer\Animation\Animation.cpp" />
+    <ClCompile Include="Component\Content\Basically\Renderer\AnimationRenderer\SetIsReverse\SetIsReverse.cpp" />
+    <ClCompile Include="Component\Content\Basically\Renderer\SpriteRenderer\SpriteRenderer.cpp" />
+    <ClCompile Include="Component\Content\Basically\Renderer\TextRenderer\TextRenderer.cpp" />
+    <ClCompile Include="Component\Content\Basically\Transform\Transform.cpp" />
+    <ClCompile Include="Component\Content\Basically\Ui\Button\Button.cpp" />
+    <ClCompile Include="Component\Content\Basically\Ui\UiEventCallback\UiEventCallBack.cpp" />
+    <ClCompile Include="Component\Content\TileMap\MapTile\ReplacableTile.cpp" />
+    <ClCompile Include="Component\Content\TileMap\TileMap.cpp" />
+    <ClCompile Include="Component\Content\TileMap\TilePreset\Container\TilePresetContainer.cpp" />
+    <ClCompile Include="Component\Content\TileMap\TilePreset\RLE\TilePresetRLE.cpp" />
+    <ClCompile Include="Component\Content\TileMap\TilePreset\TilePreset.cpp" />
+    <ClCompile Include="Entity\Container\Awake\OnAwakeEntityContainer.cpp" />
+    <ClCompile Include="Entity\Container\EntityContainer.cpp" />
+    <ClCompile Include="Entity\Container\OnDespawn\OnDeSpawnEntityContainer.cpp" />
+    <ClCompile Include="Entity\Entity.cpp" />
+    <ClCompile Include="Entity\ResourceManageContainer\EntityResourceManageContainer.cpp" />
+    <ClCompile Include="Helper\Dxlib\DxlibHelper.cpp" />
+    <ClCompile Include="Helper\FolderLoader.cpp" />
+    <ClCompile Include="Helper\ImGui\ImGuiHelper.cpp" />
+    <ClCompile Include="Helper\MyCalculator\MyCalculator.cpp" />
+    <ClCompile Include="Helper\Random\Random.cpp" />
+    <ClCompile Include="Libs\Box2D\include\src\aabb.c" />
+    <ClCompile Include="Libs\Box2D\include\src\arena_allocator.c" />
+    <ClCompile Include="Libs\Box2D\include\src\array.c" />
+    <ClCompile Include="Libs\Box2D\include\src\bitset.c" />
+    <ClCompile Include="Libs\Box2D\include\src\body.c" />
+    <ClCompile Include="Libs\Box2D\include\src\broad_phase.c" />
+    <ClCompile Include="Libs\Box2D\include\src\constraint_graph.c" />
+    <ClCompile Include="Libs\Box2D\include\src\contact.c" />
+    <ClCompile Include="Libs\Box2D\include\src\contact_solver.c" />
+    <ClCompile Include="Libs\Box2D\include\src\core.c" />
+    <ClCompile Include="Libs\Box2D\include\src\distance.c" />
+    <ClCompile Include="Libs\Box2D\include\src\distance_joint.c" />
+    <ClCompile Include="Libs\Box2D\include\src\dynamic_tree.c" />
+    <ClCompile Include="Libs\Box2D\include\src\geometry.c" />
+    <ClCompile Include="Libs\Box2D\include\src\hull.c" />
+    <ClCompile Include="Libs\Box2D\include\src\id_pool.c" />
+    <ClCompile Include="Libs\Box2D\include\src\island.c" />
+    <ClCompile Include="Libs\Box2D\include\src\joint.c" />
+    <ClCompile Include="Libs\Box2D\include\src\manifold.c" />
+    <ClCompile Include="Libs\Box2D\include\src\math_functions.c" />
+    <ClCompile Include="Libs\Box2D\include\src\motor_joint.c" />
+    <ClCompile Include="Libs\Box2D\include\src\mouse_joint.c" />
+    <ClCompile Include="Libs\Box2D\include\src\mover.c" />
+    <ClCompile Include="Libs\Box2D\include\src\prismatic_joint.c" />
+    <ClCompile Include="Libs\Box2D\include\src\revolute_joint.c" />
+    <ClCompile Include="Libs\Box2D\include\src\sensor.c" />
+    <ClCompile Include="Libs\Box2D\include\src\shape.c" />
+    <ClCompile Include="Libs\Box2D\include\src\solver.c" />
+    <ClCompile Include="Libs\Box2D\include\src\solver_set.c" />
+    <ClCompile Include="Libs\Box2D\include\src\table.c" />
+    <ClCompile Include="Libs\Box2D\include\src\timer.c" />
+    <ClCompile Include="Libs\Box2D\include\src\types.c" />
+    <ClCompile Include="Libs\Box2D\include\src\weld_joint.c" />
+    <ClCompile Include="Libs\Box2D\include\src\wheel_joint.c" />
+    <ClCompile Include="Libs\Box2D\include\src\world.c" />
+    <ClCompile Include="Libs\ImGuiWrapper.cpp" />
+    <ClCompile Include="Libs\ImGui\backends\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Libs\ImGui\backends\imgui_impl_win32.cpp" />
+    <ClCompile Include="Libs\ImGui\imgui.cpp" />
+    <ClCompile Include="Libs\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="Libs\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Libs\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="Libs\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\BehaviourTree.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\DSL\BehaviourTreeDSL.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\INode\INode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\Abort\AbortNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\Action\ActionNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\AlwaysSuccessSequence\TransformStatusSequenceNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\BreakPoint\BreakPointNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\Condition\ConditionNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\PersistentSelector\PersistentSelectorNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\PersistentSequence\PersistentSequenceNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\Random\Selector\RandomSelector.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\Random\WeightedSelector\WeightedSelector.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\Selector\SelectorNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\Sequence\SequenceNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\Wait\WaitNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\Weighted\WeightedNode.cpp" />
+    <ClCompile Include="MyScript\AI\BehaviourTree\Node\While\WhileNode.cpp" />
+    <ClCompile Include="MyScript\ApplicationExtension\ApplicationExtension.cpp" />
+    <ClCompile Include="MyScript\AutoMove\AutoMove.cpp" />
+    <ClCompile Include="MyScript\DamageNotation\Physics\DamageNotation.cpp" />
+    <ClCompile Include="MyScript\Door\DoorObject.cpp" />
+    <ClCompile Include="MyScript\DungeonRoom\DungeonRoom.cpp" />
+    <ClCompile Include="MyScript\DungeonRoom\EntranceArea\EntranceArea.cpp" />
+    <ClCompile Include="MyScript\DungeonRoom\EntranceArea\SpawnModel\SpawnEntranceModel.cpp" />
+    <ClCompile Include="MyScript\DungeonRoom\EntranceEvent\BossFight\BossFight.cpp" />
+    <ClCompile Include="MyScript\DungeonRoom\EntranceEvent\IEntranceEvent.cpp" />
+    <ClCompile Include="MyScript\DungeonRoom\EntranceEvent\LoadScene\LoadSceneEvent.cpp" />
+    <ClCompile Include="MyScript\DungeonRoom\EntranceEvent\OnPlaySound\OnPlaySoundEffect.cpp" />
+    <ClCompile Include="MyScript\DungeonRoom\EntranceEvent\SpawnEnemy\SpawnEntity.cpp" />
+    <ClCompile Include="MyScript\DungeonRoom\EntranceEvent\SuddenDeath\SuddenDeath.cpp" />
+    <ClCompile Include="MyScript\FightParameter\DamageContext\Fire\FireDamageContext.cpp" />
+    <ClCompile Include="MyScript\FightParameter\DamageContext\Fire\FirePower\FirePower.cpp" />
+    <ClCompile Include="MyScript\FightParameter\DamageContext\Interface\IDamageContext.cpp" />
+    <ClCompile Include="MyScript\FightParameter\DamageContext\IReceivable\IReceivableDamage.cpp" />
+    <ClCompile Include="MyScript\FightParameter\DamageContext\Physics\PhysicsDamageContext.cpp" />
+    <ClCompile Include="MyScript\FightParameter\DamageContext\Physics\PhysicsPower\PhysicsPower.cpp" />
+    <ClCompile Include="MyScript\FightParameter\DamageContext\Thunder\ThunderDamageContext.cpp" />
+    <ClCompile Include="MyScript\FightParameter\DamageContext\Thunder\ThunderPower\ThunderPower.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\AddPosForTurnDirection\AddPosForTurnDirection.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\ChaseToPlayerForFindPath\ChasePlayerForFindPath.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\ChaseToPlayer\ChasePlayer.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\CopyableChasePlayerForFindPath\CopyableChasePlayerForFindPath.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\CreateBloodParticle\CreateBloodParticle.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\CreateDeathParticle\CreateDeathParticle.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\OnDamage\OnDamage.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\OnDespawnEntity\OnDespawnEntity.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\OnDropMadnessEnergy\OnDropMadnessEnergy.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\OnLookPlayer\OnLookPlayer.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\PlayAnimation\PlayAnimation.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\PlaySE\PlaySE.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\SetLinearVelocity\SetLinearVelocity.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\SetLocalPosition\AddPosition.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\SetPosition\SetPosition.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\SpawnAttackArea\SpawnBoxAttackArea.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\SurprisedSign\SurprisedSign.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\SuspiciousSign\SuspiciousSign.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Action\Wander\Wander.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Condition\DistanceToPlayer\DistanceToPlayer.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Condition\IsDamaged\IsDamaged.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Condition\IsDeath.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Condition\IsInPlayer\IsInPlayer.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Behaviour\Condition\RaycastToPlayer\RaycastToPlayer.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\BoxAttackArea\EnemyBoxAttackArea.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\DarkMushroom\DarkMushroom.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\DarkSamurai\DarkSamurai.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Enemy.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\FlyingFox\FlyingFox.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\FrostShadowKnight\Behaviour\SummonFrostEnergyShoot\SummonFrostEnergyShoot.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\FrostShadowKnight\FrostShadowKnight.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\GhostWizard\Behaviour\SummonGhostWizardFireBall.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\GhostWizard\GhostWizard.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Helper\EnemyHelper.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Skeleton\White\WhiteSkeleton.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\Slime\Blue\BlueSlime.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\SmallOrc\SmallOrc.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\SpawnModel\SpawnEnemyModel.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\StartAttackArea\StartMotionArea.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\SummonBossCircle\SummonBossCircle.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\SummonCircle\SummonEnemyCircle.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Enemy\WizardGhost\WizardGhost.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Health\Health.cpp" />
+    <ClCompile Include="MyScript\FightParameter\IDamageParam\IDamageParam.cpp" />
+    <ClCompile Include="MyScript\FightParameter\IReceivableEnemyAttack\IReceivableEnemyAttack.cpp" />
+    <ClCompile Include="MyScript\FightParameter\IReceivablePlayerAttack\IReceivablePlayerAttack.cpp" />
+    <ClCompile Include="MyScript\FightParameter\MadnessEnergy\IReceivableMadnessEnergy\IReceivableMadnessEnergy.cpp" />
+    <ClCompile Include="MyScript\FightParameter\MadnessEnergy\MadnessEnergy.cpp" />
+    <ClCompile Include="MyScript\FightParameter\MadnessEnergy\MadnessEnergyObject\MadnessEnergyObject.cpp" />
+    <ClCompile Include="MyScript\FightParameter\PlayerAttackArea.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Projectile\FrostEnergyShoot\FrostEnergyShoot.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Projectile\SmallFireBall\SmallFireBall.cpp" />
+    <ClCompile Include="MyScript\FightParameter\Projectile\StoneArrow\StoneArrow.cpp" />
+    <ClCompile Include="MyScript\FightParameter\SpawnAttackAreaModel\SpawnAttackAreaModel.cpp" />
+    <ClCompile Include="MyScript\Item\Drop\PowerUp\Base\PowerUpItemBase.cpp" />
+    <ClCompile Include="MyScript\Item\Drop\PowerUp\CollectMadness\CollectMadnessPowerUpItem.cpp" />
+    <ClCompile Include="MyScript\Item\Drop\PowerUp\DarkHeal\DarkHealPowerUpItem.cpp" />
+    <ClCompile Include="MyScript\Item\Drop\PowerUp\Physics\PhysicsPowerUpItem.cpp" />
+    <ClCompile Include="MyScript\Item\Drop\SkillBookItem\SkillBookDropItemObject.cpp" />
+    <ClCompile Include="MyScript\Item\Skill\Base\SkillBase.cpp" />
+    <ClCompile Include="MyScript\Item\Skill\SummonFireBall\SummonFireBallSkill.cpp" />
+    <ClCompile Include="MyScript\Item\Skill\SummonLighting\Object\Thunder0Object.cpp" />
+    <ClCompile Include="MyScript\Item\Skill\SummonLighting\Object\Thunder0ObjectAttackArea.cpp" />
+    <ClCompile Include="MyScript\Item\Skill\SummonLighting\SummonLightning.cpp" />
+    <ClCompile Include="MyScript\OnUnloadSceneForInputAction\OnUnloadSceneForInputAction.cpp" />
+    <ClCompile Include="MyScript\PathFinding\AStar\AStar.cpp" />
+    <ClCompile Include="MyScript\PathFinding\AStar\Node\AStarNode.cpp" />
+    <ClCompile Include="MyScript\PauseScene\GameStartButton\GameStartButton.cpp" />
+    <ClCompile Include="MyScript\Player\Controller\InputAction\Attack\Attack.cpp" />
+    <ClCompile Include="MyScript\Player\Controller\InputAction\DashAttack\DashAttack.cpp" />
+    <ClCompile Include="MyScript\Player\Controller\InputAction\GoInsane\ConsumptionMadness.cpp" />
+    <ClCompile Include="MyScript\Player\Controller\InputAction\InputAction.cpp" />
+    <ClCompile Include="MyScript\Player\Controller\InputAction\Move\Move.cpp" />
+    <ClCompile Include="MyScript\Player\Controller\PlayerController.cpp" />
+    <ClCompile Include="MyScript\Player\Model\BasicParam\BasicParam.cpp" />
+    <ClCompile Include="MyScript\Player\Model\BasicParam\DarkForm\Animation\DarkFormAnimation.cpp" />
+    <ClCompile Include="MyScript\Player\Model\BasicParam\DarkForm\DarkFormParam.cpp" />
+    <ClCompile Include="MyScript\Player\Model\BasicParam\DarkForm\Sound\DarkFormSound.cpp" />
+    <ClCompile Include="MyScript\Player\Model\BasicParam\FormParamBase\FormParamBase.cpp" />
+    <ClCompile Include="MyScript\Player\Model\BasicParam\Inventory\Inventory.cpp" />
+    <ClCompile Include="MyScript\Player\Model\BasicParam\NormalForm\Animation\NormalFormAnimation.cpp" />
+    <ClCompile Include="MyScript\Player\Model\BasicParam\NormalForm\NormalFormParam.cpp" />
+    <ClCompile Include="MyScript\Player\Model\BasicParam\NormalForm\Sound\NormalFormSound.cpp" />
+    <ClCompile Include="MyScript\Player\Model\CanUseSkillParticle.cpp" />
+    <ClCompile Include="MyScript\Player\Model\PlayerModel.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\DarkForm\Attack\DarkFormAttackState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\DarkForm\Idle\DarkFormIdleState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\DarkForm\OnDamage\DarkFormOnDamageState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\DarkForm\OnReleaseForm\DarkFormOnReleaseFormState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\DarkForm\Walk\DarkFormWalkState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\Group\PlayerStateGroup.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\IState\IPlayerState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\NormalForm\Attack\NormalFormAttackState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\NormalForm\ConsumptionMadness\NormalFormConsumptionMadnessState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\NormalForm\GoInsane\GoInsaneState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\NormalForm\Idle\NormalFormIdleState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\NormalForm\OnDamage\NormalFormOnDamageState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\NormalForm\OnDarkHeal\NormalFormOnDarkHealState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\NormalForm\OnDeath\NormalFormOnDeathState.cpp" />
+    <ClCompile Include="MyScript\Player\Model\State\NormalForm\Walk\NormalFormWalkState.cpp" />
+    <ClCompile Include="MyScript\Player\PlayerAvatar.cpp" />
+    <ClCompile Include="MyScript\Portal\BeginPortal.cpp" />
+    <ClCompile Include="MyScript\Portal\Portal.cpp" />
+    <ClCompile Include="MyScript\Props\Barrel0Object\Barrel0Object.cpp" />
+    <ClCompile Include="MyScript\Props\Gimmick\Content\StoneFence\CopperFence.cpp" />
+    <ClCompile Include="MyScript\Props\Gimmick\Interface\IGimmick.cpp" />
+    <ClCompile Include="MyScript\Props\Gimmick\Thunder\ReceiveThunderGimmick.cpp" />
+    <ClCompile Include="MyScript\Props\Gimmick\Trap\RisingFire\RisingFireTrap.cpp" />
+    <ClCompile Include="MyScript\Props\Gimmick\Trap\StoneShootArrow\StoneShootArrowTrap.cpp" />
+    <ClCompile Include="MyScript\Props\Grass\Strange\GimmickStrangeGrass.cpp" />
+    <ClCompile Include="MyScript\Props\Pot\BreakableYellowPot\BreakablePotObject.cpp" />
+    <ClCompile Include="MyScript\Props\Pot\BreakingYellowPot\BreakingYellowPot.cpp" />
+    <ClCompile Include="MyScript\Props\SignboardObject\SignboardObject.cpp" />
+    <ClCompile Include="MyScript\Props\TorchObject\TorchObject.cpp" />
+    <ClCompile Include="MyScript\Props\WoodChest\WoodChest.cpp" />
+    <ClCompile Include="MyScript\Props\WoodNail\WoodNail.cpp" />
+    <ClCompile Include="MyScript\Scene\Sound\SceneBgmPlayer\SceneBgmPlayer.cpp" />
+    <ClCompile Include="MyScript\Scene\UnLoadLoadingScene\UnLoadLoadingSceneComponent\UnLoadLoadingSceneComponent.cpp" />
+    <ClCompile Include="MyScript\Sound\HandleContainer\HandleContainer.cpp" />
+    <ClCompile Include="MyScript\UI\GameClearScene\GameClearText.cpp" />
+    <ClCompile Include="MyScript\UI\GameOverScene\StartOverButton.cpp" />
+    <ClCompile Include="MyScript\UI\GamePlayScene\PlayerParamView\HealthBar\HealthBar.cpp" />
+    <ClCompile Include="MyScript\UI\GamePlayScene\PlayerParamView\MadnessBar\MadnessBar.cpp" />
+    <ClCompile Include="MyScript\UI\GamePlayScene\PlayerParamView\PlayerParamView.cpp" />
+    <ClCompile Include="MyScript\UI\GamePlayScene\PlayerParamView\SkillSlotView\SkillSlotView.cpp" />
+    <ClCompile Include="MyScript\UI\GamePlayScene\Presenter\Presenter.cpp" />
+    <ClCompile Include="MyScript\UI\LoadingScene\LoadingIcon\LoadingIcon.cpp" />
+    <ClCompile Include="MyScript\UI\SelectStageNumber\AnimationImageRenderer\AnimationImageRenderer.cpp" />
+    <ClCompile Include="MyScript\UI\SelectStageNumber\SelectStageNumber.cpp" />
+    <ClCompile Include="Physics\Contact\Begin\IBeginContactable.cpp" />
+    <ClCompile Include="Physics\Contact\End\IEndContactable.cpp" />
+    <ClCompile Include="Physics\Contact\Hit\IHitContactable.cpp" />
+    <ClCompile Include="Physics\Physics.cpp" />
+    <ClCompile Include="Physics\Raycast\Raycast.cpp" />
+    <ClCompile Include="Physics\Sensor\Begin\IBeginSensorable.cpp" />
+    <ClCompile Include="Physics\Sensor\End\IEndSensorable.cpp" />
+    <ClCompile Include="Render\Render.cpp" />
+    <ClCompile Include="Render\RenderContent\Filter\RenderFilterContent.cpp" />
+    <ClCompile Include="Render\RenderContent\Graph\RenderGraphContent.cpp" />
+    <ClCompile Include="Render\RenderContent\RenderContent.cpp" />
+    <ClCompile Include="Render\RenderContent\Text\RenderTextContent.cpp" />
+    <ClCompile Include="Resource\IResource\IResource.cpp" />
+    <ClCompile Include="Resource\ManageContainer\Group\ResourceManageContainerGroup.cpp" />
+    <ClCompile Include="Resource\ManageContainer\ResourceManageContainerBase.cpp" />
+    <ClCompile Include="Scene\Content\Scene.cpp" />
+    <ClCompile Include="Scene\Manager\SceneManager.cpp" />
+    <ClCompile Include="Scene\ResourceManageContaienr\SceneResourceManageContainer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application\ApplicationParameter.h" />
+    <ClInclude Include="Application\Camera\Base\CameraBase.hpp" />
+    <ClInclude Include="Application\Editor\Camera\EditorCamera.hpp" />
+    <ClInclude Include="Application\Editor\EditorApplication.h" />
+    <ClInclude Include="Application\Fps\ApplicationFps.h" />
+    <ClInclude Include="Application\Game\Camera\GameCamera.h" />
+    <ClInclude Include="Application\Game\GameApplication.h" />
+    <ClInclude Include="Application\IApplication\IApplication.hpp" />
+    <ClInclude Include="Application\Screen\ScreenHelper.h" />
+    <ClInclude Include="BasicallyParameter\Guid\Guid.h" />
+    <ClInclude Include="BasicallyParameter\IContainer\IContainer.h" />
+    <ClInclude Include="BasicallyParameter\MouseState\MouseState.h" />
+    <ClInclude Include="BasicallyParameter\ReadOnlyReactiveContext\ReadOnlyReactiveContext.h" />
+    <ClInclude Include="BasicallyParameter\SerializableSubject\Subject.h" />
+    <ClInclude Include="BasicallyParameter\SerializableSubject\unit\unit.h" />
+    <ClInclude Include="BasicallyParameter\SerializeComponentRef\ComponentRef.h" />
+    <ClInclude Include="BasicallyParameter\Sound\Handle\SoundHandle.h" />
+    <ClInclude Include="BasicallyParameter\Sound\Play\SoundPlay.h" />
+    <ClInclude Include="BasicallyParameter\Vector2Int\Vector2Int.h" />
+    <ClInclude Include="BasicallyParameter\Vector2\Vector2.hpp" />
+    <ClInclude Include="Component\Component.hpp" />
+    <ClInclude Include="Component\Content\Basically\Collider\Box\BoxCollider.h" />
+    <ClInclude Include="Component\Content\Basically\Collider\Collider.h" />
+    <ClInclude Include="Component\Content\Basically\Color\Color.h" />
+    <ClInclude Include="Component\Content\Basically\ImageRenderer\ImageRenderer.h" />
+    <ClInclude Include="Component\Content\Basically\MovieRenderer\MovieRenderer.h" />
+    <ClInclude Include="Component\Content\Basically\Particle\Particle.h" />
+    <ClInclude Include="Component\Content\Basically\Renderer\AnimationRenderer\AnimationRenderer.h" />
+    <ClInclude Include="Component\Content\Basically\Renderer\AnimationRenderer\Animation\Animation.h" />
+    <ClInclude Include="Component\Content\Basically\Renderer\AnimationRenderer\SetIsReverse\SetIsReverse.h" />
+    <ClInclude Include="Component\Content\Basically\Renderer\SpriteRenderer\SpriteRenderer.h" />
+    <ClInclude Include="Component\Content\Basically\Renderer\TextRenderer\TextRenderer.h" />
+    <ClInclude Include="Component\Content\Basically\Transform\Transform.hpp" />
+    <ClInclude Include="Component\Content\Basically\Ui\Button\Button.h" />
+    <ClInclude Include="Component\Content\Basically\Ui\UiEventCallback\UiEventCallBack.h" />
+    <ClInclude Include="Component\Content\TileMap\MapTile\ReplacableTile.h" />
+    <ClInclude Include="Component\Content\TileMap\TileMap.h" />
+    <ClInclude Include="Component\Content\TileMap\TilePreset\Container\TilePresetContainer.h" />
+    <ClInclude Include="Component\Content\TileMap\TilePreset\RLE\TilePresetRLE.h" />
+    <ClInclude Include="Component\Content\TileMap\TilePreset\TilePreset.h" />
+    <ClInclude Include="Entity\Container\Awake\OnAwakeEntityContainer.h" />
+    <ClInclude Include="Entity\Container\EntityContainer.h" />
+    <ClInclude Include="Entity\Container\OnDespawn\OnDeSpawnEntityContainer.h" />
+    <ClInclude Include="Entity\Entity.hpp" />
+    <ClInclude Include="Entity\ResourceManageContainer\EntityResourceManageContainer.h" />
+    <ClInclude Include="Helper\Dxlib\DxlibHelper.h" />
+    <ClInclude Include="Helper\FolderLoader.h" />
+    <ClInclude Include="Helper\ImGui\ImGuiHelper.h" />
+    <ClInclude Include="Helper\MyCalculator\MyCalculator.h" />
+    <ClInclude Include="Helper\Random\Random.h" />
+    <ClInclude Include="Libs\Box2D\include\src\aabb.h" />
+    <ClInclude Include="Libs\Box2D\include\src\arena_allocator.h" />
+    <ClInclude Include="Libs\Box2D\include\src\array.h" />
+    <ClInclude Include="Libs\Box2D\include\src\atomic.h" />
+    <ClInclude Include="Libs\Box2D\include\src\bitset.h" />
+    <ClInclude Include="Libs\Box2D\include\src\body.h" />
+    <ClInclude Include="Libs\Box2D\include\src\box2d\base.h" />
+    <ClInclude Include="Libs\Box2D\include\src\box2d\box2d.h" />
+    <ClInclude Include="Libs\Box2D\include\src\box2d\collision.h" />
+    <ClInclude Include="Libs\Box2D\include\src\box2d\id.h" />
+    <ClInclude Include="Libs\Box2D\include\src\box2d\math_functions.h" />
+    <ClInclude Include="Libs\Box2D\include\src\box2d\types.h" />
+    <ClInclude Include="Libs\Box2D\include\src\broad_phase.h" />
+    <ClInclude Include="Libs\Box2D\include\src\constants.h" />
+    <ClInclude Include="Libs\Box2D\include\src\constraint_graph.h" />
+    <ClInclude Include="Libs\Box2D\include\src\contact.h" />
+    <ClInclude Include="Libs\Box2D\include\src\contact_solver.h" />
+    <ClInclude Include="Libs\Box2D\include\src\core.h" />
+    <ClInclude Include="Libs\Box2D\include\src\ctz.h" />
+    <ClInclude Include="Libs\Box2D\include\src\id_pool.h" />
+    <ClInclude Include="Libs\Box2D\include\src\island.h" />
+    <ClInclude Include="Libs\Box2D\include\src\joint.h" />
+    <ClInclude Include="Libs\Box2D\include\src\sensor.h" />
+    <ClInclude Include="Libs\Box2D\include\src\shape.h" />
+    <ClInclude Include="Libs\Box2D\include\src\solver.h" />
+    <ClInclude Include="Libs\Box2D\include\src\solver_set.h" />
+    <ClInclude Include="Libs\Box2D\include\src\table.h" />
+    <ClInclude Include="Libs\Box2D\include\src\world.h" />
+    <ClInclude Include="Libs\ImGuiWrapper.h" />
+    <ClInclude Include="Libs\ImGui\backends\imgui_impl_dx11.h" />
+    <ClInclude Include="Libs\ImGui\backends\imgui_impl_win32.h" />
+    <ClInclude Include="Libs\ImGui\imconfig.h" />
+    <ClInclude Include="Libs\ImGui\imgui.h" />
+    <ClInclude Include="Libs\ImGui\imgui_internal.h" />
+    <ClInclude Include="Libs\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Libs\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Libs\ImGui\imstb_truetype.h" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-all.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-amb.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-any.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-buffer_count.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-buffer_time.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-buffer_time_count.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-combine_latest.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-concat.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-concat_map.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-connect_forever.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-debounce.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-delay.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-distinct.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-distinct_until_changed.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-element_at.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-filter.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-finally.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-flat_map.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-group_by.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-ignore_elements.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-lift.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-map.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-merge.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-merge_delay_error.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-multicast.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-observe_on.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-on_error_resume_next.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-pairwise.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-publish.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-reduce.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-ref_count.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-repeat.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-replay.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-retry-repeat-common.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-retry.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-sample_time.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-scan.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-sequence_equal.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-skip.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-skip_last.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-skip_until.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-skip_while.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-start_with.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-subscribe.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-subscribe_on.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-switch_if_empty.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-switch_on_next.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-take.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-take_last.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-take_until.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-take_while.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-tap.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-timeout.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-timestamp.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-time_interval.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-window.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-window_time.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-window_time_count.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-window_toggle.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-with_latest_from.hpp" />
+    <ClInclude Include="Libs\rxcpp\operators\rx-zip.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-composite_exception.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-connectable_observable.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-coordination.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-coroutine.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-grouped_observable.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-includes.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-lite.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-notification.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-observable-fwd.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-observable.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-observer.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-operators.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-predef.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-scheduler.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-sources.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-subjects.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-subscriber.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-subscription.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-test.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-trace.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx-util.hpp" />
+    <ClInclude Include="Libs\rxcpp\rx.hpp" />
+    <ClInclude Include="Libs\rxcpp\schedulers\rx-currentthread.hpp" />
+    <ClInclude Include="Libs\rxcpp\schedulers\rx-eventloop.hpp" />
+    <ClInclude Include="Libs\rxcpp\schedulers\rx-immediate.hpp" />
+    <ClInclude Include="Libs\rxcpp\schedulers\rx-newthread.hpp" />
+    <ClInclude Include="Libs\rxcpp\schedulers\rx-runloop.hpp" />
+    <ClInclude Include="Libs\rxcpp\schedulers\rx-sameworker.hpp" />
+    <ClInclude Include="Libs\rxcpp\schedulers\rx-test.hpp" />
+    <ClInclude Include="Libs\rxcpp\schedulers\rx-virtualtime.hpp" />
+    <ClInclude Include="Libs\rxcpp\sources\rx-create.hpp" />
+    <ClInclude Include="Libs\rxcpp\sources\rx-defer.hpp" />
+    <ClInclude Include="Libs\rxcpp\sources\rx-empty.hpp" />
+    <ClInclude Include="Libs\rxcpp\sources\rx-error.hpp" />
+    <ClInclude Include="Libs\rxcpp\sources\rx-interval.hpp" />
+    <ClInclude Include="Libs\rxcpp\sources\rx-iterate.hpp" />
+    <ClInclude Include="Libs\rxcpp\sources\rx-never.hpp" />
+    <ClInclude Include="Libs\rxcpp\sources\rx-range.hpp" />
+    <ClInclude Include="Libs\rxcpp\sources\rx-scope.hpp" />
+    <ClInclude Include="Libs\rxcpp\sources\rx-timer.hpp" />
+    <ClInclude Include="Libs\rxcpp\subjects\rx-behavior.hpp" />
+    <ClInclude Include="Libs\rxcpp\subjects\rx-replaysubject.hpp" />
+    <ClInclude Include="Libs\rxcpp\subjects\rx-subject.hpp" />
+    <ClInclude Include="Libs\rxcpp\subjects\rx-synchronize.hpp" />
+    <ClInclude Include="Libs\プロジェクトに追加すべきファイル_VC用\DxCompileConfig.h" />
+    <ClInclude Include="Libs\プロジェクトに追加すべきファイル_VC用\DxDataType.h" />
+    <ClInclude Include="Libs\プロジェクトに追加すべきファイル_VC用\DxDataTypeWin.h" />
+    <ClInclude Include="Libs\プロジェクトに追加すべきファイル_VC用\DxFunctionWin.h" />
+    <ClInclude Include="Libs\プロジェクトに追加すべきファイル_VC用\DxLib.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\BehaviourTree.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\DSL\BehaviourTreeDSL.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\INode\INode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\Abort\AbortNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\Action\ActionNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\AlwaysSuccessSequence\TransformStatusSequenceNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\BreakPoint\BreakPointNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\Condition\ConditionNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\PersistentSelector\PersistentSelectorNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\PersistentSequence\PersistentSequenceNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\Random\Selector\RandomSelector.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\Random\WeightedSelector\WeightedSelector.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\Selector\SelectorNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\Sequence\SequenceNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\Wait\WaitNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\Weighted\WeightedNode.h" />
+    <ClInclude Include="MyScript\AI\BehaviourTree\Node\While\WhileNode.h" />
+    <ClInclude Include="MyScript\ApplicationExtension\ApplicationExtension.h" />
+    <ClInclude Include="MyScript\AutoMove\AutoMove.h" />
+    <ClInclude Include="MyScript\DamageNotation\Physics\DamageNotation.h" />
+    <ClInclude Include="MyScript\Door\DoorObject.h" />
+    <ClInclude Include="MyScript\DungeonRoom\DungeonRoom.h" />
+    <ClInclude Include="MyScript\DungeonRoom\EntranceArea\EntranceArea.h" />
+    <ClInclude Include="MyScript\DungeonRoom\EntranceArea\SpawnModel\SpawnEntranceModel.h" />
+    <ClInclude Include="MyScript\DungeonRoom\EntranceEvent\BossFight\BossFight.h" />
+    <ClInclude Include="MyScript\DungeonRoom\EntranceEvent\IEntranceEvent.h" />
+    <ClInclude Include="MyScript\DungeonRoom\EntranceEvent\LoadScene\LoadSceneEvent.h" />
+    <ClInclude Include="MyScript\DungeonRoom\EntranceEvent\OnPlaySound\OnPlaySoundEffect.h" />
+    <ClInclude Include="MyScript\DungeonRoom\EntranceEvent\SpawnEnemy\SpawnEntity.h" />
+    <ClInclude Include="MyScript\DungeonRoom\EntranceEvent\SuddenDeath\SuddenDeath.h" />
+    <ClInclude Include="MyScript\FightParameter\DamageContext\Fire\FireDamageContext.h" />
+    <ClInclude Include="MyScript\FightParameter\DamageContext\Fire\FirePower\FirePower.h" />
+    <ClInclude Include="MyScript\FightParameter\DamageContext\Interface\IDamageContext.h" />
+    <ClInclude Include="MyScript\FightParameter\DamageContext\IReceivable\IReceivableDamage.h" />
+    <ClInclude Include="MyScript\FightParameter\DamageContext\Physics\PhysicsDamageContext.h" />
+    <ClInclude Include="MyScript\FightParameter\DamageContext\Physics\PhysicsPower\PhysicsPower.h" />
+    <ClInclude Include="MyScript\FightParameter\DamageContext\Thunder\ThunderDamageContext.h" />
+    <ClInclude Include="MyScript\FightParameter\DamageContext\Thunder\ThunderPower\ThunderPower.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\AddPosForTurnDirection\AddPosForTurnDirection.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\ChaseToPlayerForFindPath\ChasePlayerForFindPath.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\ChaseToPlayer\ChasePlayer.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\CopyableChasePlayerForFindPath\CopyableChasePlayerForFindPath.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\CreateBloodParticle\CreateBloodParticle.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\CreateDeathParticle\CreateDeathParticle.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\OnDamage\OnDamage.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\OnDespawnEntity\OnDespawnEntity.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\OnDropMadnessEnergy\OnDropMadnessEnergy.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\OnLookPlayer\OnLookPlayer.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\PlayAnimation\PlayAnimation.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\PlaySE\PlaySE.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\SetLinearVelocity\SetLinearVelocity.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\SetLocalPosition\AddPosition.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\SetPosition\SetPosition.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\SpawnAttackArea\SpawnBoxAttackArea.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\SurprisedSign\SurprisedSign.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\SuspiciousSign\SuspiciousSign.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Action\Wander\Wander.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Condition\DistanceToPlayer\DistanceToPlayer.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Condition\IsDamaged\IsDamaged.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Condition\IsDeath.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Condition\IsInPlayer\IsInPlayer.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Behaviour\Condition\RaycastToPlayer\RaycastToPlayer.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\BoxAttackArea\EnemyBoxAttackArea.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\DarkMushroom\DarkMushroom.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\DarkSamurai\DarkSamurai.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Enemy.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\FlyingFox\FlyingFox.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\FrostShadowKnight\Behaviour\SummonFrostEnergyShoot\SummonFrostEnergyShoot.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\FrostShadowKnight\FrostShadowKnight.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\GhostWizard\Behaviour\SummonGhostWizardFireBall.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\GhostWizard\GhostWizard.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Helper\EnemyHelper.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Skeleton\White\WhiteSkeleton.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\Slime\Blue\BlueSlime.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\SmallOrc\SmallOrc.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\SpawnModel\SpawnEnemyModel.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\StartAttackArea\StartMotionArea.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\SummonBossCircle\SummonBossCircle.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\SummonCircle\SummonEnemyCircle.h" />
+    <ClInclude Include="MyScript\FightParameter\Enemy\WizardGhost\WizardGhost.h" />
+    <ClInclude Include="MyScript\FightParameter\Health\Health.h" />
+    <ClInclude Include="MyScript\FightParameter\IDamageParam\IDamageParam.h" />
+    <ClInclude Include="MyScript\FightParameter\IReceivableEnemyAttack\IReceivableEnemyAttack.h" />
+    <ClInclude Include="MyScript\FightParameter\IReceivablePlayerAttack\IReceivablePlayerAttack.h" />
+    <ClInclude Include="MyScript\FightParameter\MadnessEnergy\IReceivableMadnessEnergy\IReceivableMadnessEnergy.h" />
+    <ClInclude Include="MyScript\FightParameter\MadnessEnergy\MadnessEnergy.h" />
+    <ClInclude Include="MyScript\FightParameter\MadnessEnergy\MadnessEnergyObject\MadnessEnergyObject.h" />
+    <ClInclude Include="MyScript\FightParameter\PlayerAttackArea.h" />
+    <ClInclude Include="MyScript\FightParameter\Projectile\FrostEnergyShoot\FrostEnergyShoot.h" />
+    <ClInclude Include="MyScript\FightParameter\Projectile\SmallFireBall\SmallFireBall.h" />
+    <ClInclude Include="MyScript\FightParameter\Projectile\StoneArrow\StoneArrow.h" />
+    <ClInclude Include="MyScript\FightParameter\SpawnAttackAreaModel\SpawnAttackAreaModel.h" />
+    <ClInclude Include="MyScript\Item\Drop\PowerUp\Base\PowerUpItemBase.h" />
+    <ClInclude Include="MyScript\Item\Drop\PowerUp\CollectMadness\CollectMadnessPowerUpItem.h" />
+    <ClInclude Include="MyScript\Item\Drop\PowerUp\DarkHeal\DarkHealPowerUpItem.h" />
+    <ClInclude Include="MyScript\Item\Drop\PowerUp\Physics\PhysicsPowerUpItem.h" />
+    <ClInclude Include="MyScript\Item\Drop\SkillBookItem\SkillBookDropItemObject.h" />
+    <ClInclude Include="MyScript\Item\Skill\Base\SkillBase.h" />
+    <ClInclude Include="MyScript\Item\Skill\SummonFireBall\SummonFireBallSkill.h" />
+    <ClInclude Include="MyScript\Item\Skill\SummonLighting\Object\Thunder0Object.h" />
+    <ClInclude Include="MyScript\Item\Skill\SummonLighting\Object\Thunder0ObjectAttackArea.h" />
+    <ClInclude Include="MyScript\Item\Skill\SummonLighting\SummonLightning.h" />
+    <ClInclude Include="MyScript\OnUnloadSceneForInputAction\OnUnloadSceneForInputAction.h" />
+    <ClInclude Include="MyScript\PathFinding\AStar\AStar.h" />
+    <ClInclude Include="MyScript\PathFinding\AStar\Node\AStarNode.h" />
+    <ClInclude Include="MyScript\PauseScene\GameStartButton\GameStartButton.h" />
+    <ClInclude Include="MyScript\Player\Controller\InputAction\Attack\Attack.h" />
+    <ClInclude Include="MyScript\Player\Controller\InputAction\DashAttack\DashAttack.h" />
+    <ClInclude Include="MyScript\Player\Controller\InputAction\GoInsane\ConsumptionMadness.h" />
+    <ClInclude Include="MyScript\Player\Controller\InputAction\InputAction.h" />
+    <ClInclude Include="MyScript\Player\Controller\InputAction\Move\Move.h" />
+    <ClInclude Include="MyScript\Player\Controller\PlayerController.h" />
+    <ClInclude Include="MyScript\Player\Model\BasicParam\BasicParam.h" />
+    <ClInclude Include="MyScript\Player\Model\BasicParam\DarkForm\Animation\DarkFormAnimation.h" />
+    <ClInclude Include="MyScript\Player\Model\BasicParam\DarkForm\DarkFormParam.h" />
+    <ClInclude Include="MyScript\Player\Model\BasicParam\DarkForm\Sound\DarkFormSound.h" />
+    <ClInclude Include="MyScript\Player\Model\BasicParam\FormParamBase\FormParamBase.h" />
+    <ClInclude Include="MyScript\Player\Model\BasicParam\Inventory\Inventory.h" />
+    <ClInclude Include="MyScript\Player\Model\BasicParam\NormalForm\Animation\NormalFormAnimation.h" />
+    <ClInclude Include="MyScript\Player\Model\BasicParam\NormalForm\NormalFormParam.h" />
+    <ClInclude Include="MyScript\Player\Model\BasicParam\NormalForm\Sound\NormalFormSound.h" />
+    <ClInclude Include="MyScript\Player\Model\CanUseSkillParticle.h" />
+    <ClInclude Include="MyScript\Player\Model\PlayerModel.h" />
+    <ClInclude Include="MyScript\Player\Model\State\DarkForm\Attack\DarkFormAttackState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\DarkForm\Idle\DarkFormIdleState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\DarkForm\OnDamage\DarkFormOnDamageState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\DarkForm\OnReleaseForm\DarkFormOnReleaseFormState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\DarkForm\Walk\DarkFormWalkState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\Group\PlayerStateGroup.h" />
+    <ClInclude Include="MyScript\Player\Model\State\IState\IPlayerState.hpp" />
+    <ClInclude Include="MyScript\Player\Model\State\NormalForm\Attack\NormalFormAttackState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\NormalForm\ConsumptionMadness\NormalFormConsumptionMadnessState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\NormalForm\GoInsane\GoInsaneState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\NormalForm\Idle\NormalFormIdleState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\NormalForm\OnDamage\NormalFormOnDamageState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\NormalForm\OnDarkHeal\NormalFormOnDarkHealState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\NormalForm\OnDeath\NormalFormOnDeathState.h" />
+    <ClInclude Include="MyScript\Player\Model\State\NormalForm\Walk\NormalFormWalkState.h" />
+    <ClInclude Include="MyScript\Player\PlayerAvatar.h" />
+    <ClInclude Include="MyScript\Portal\BeginPortal.h" />
+    <ClInclude Include="MyScript\Portal\Portal.h" />
+    <ClInclude Include="MyScript\Props\Barrel0Object\Barrel0Object.h" />
+    <ClInclude Include="MyScript\Props\Gimmick\Content\StoneFence\CopperFence.h" />
+    <ClInclude Include="MyScript\Props\Gimmick\Interface\IGimmick.h" />
+    <ClInclude Include="MyScript\Props\Gimmick\Thunder\ReceiveThunderGimmick.h" />
+    <ClInclude Include="MyScript\Props\Gimmick\Trap\RisingFire\RisingFireTrap.h" />
+    <ClInclude Include="MyScript\Props\Gimmick\Trap\StoneShootArrow\StoneShootArrowTrap.h" />
+    <ClInclude Include="MyScript\Props\Grass\Strange\GimmickStrangeGrass.h" />
+    <ClInclude Include="MyScript\Props\Pot\BreakableYellowPot\BreakablePotObject.h" />
+    <ClInclude Include="MyScript\Props\Pot\BreakingYellowPot\BreakingYellowPot.h" />
+    <ClInclude Include="MyScript\Props\SignboardObject\SignboardObject.h" />
+    <ClInclude Include="MyScript\Props\TorchObject\TorchObject.h" />
+    <ClInclude Include="MyScript\Props\WoodChest\WoodChest.h" />
+    <ClInclude Include="MyScript\Props\WoodNail\WoodNail.h" />
+    <ClInclude Include="MyScript\Scene\Sound\SceneBgmPlayer\SceneBgmPlayer.h" />
+    <ClInclude Include="MyScript\Scene\UnLoadLoadingScene\UnLoadLoadingSceneComponent\UnLoadLoadingSceneComponent.h" />
+    <ClInclude Include="MyScript\Sound\HandleContainer\HandleContainer.h" />
+    <ClInclude Include="MyScript\UI\GameClearScene\GameClearText.h" />
+    <ClInclude Include="MyScript\UI\GameOverScene\StartOverButton.h" />
+    <ClInclude Include="MyScript\UI\GamePlayScene\PlayerParamView\HealthBar\HealthBar.h" />
+    <ClInclude Include="MyScript\UI\GamePlayScene\PlayerParamView\MadnessBar\MadnessBar.h" />
+    <ClInclude Include="MyScript\UI\GamePlayScene\PlayerParamView\PlayerParamView.h" />
+    <ClInclude Include="MyScript\UI\GamePlayScene\PlayerParamView\SkillSlotView\SkillSlotView.h" />
+    <ClInclude Include="MyScript\UI\GamePlayScene\Presenter\Presenter.h" />
+    <ClInclude Include="MyScript\UI\LoadingScene\LoadingIcon\LoadingIcon.h" />
+    <ClInclude Include="MyScript\UI\SelectStageNumber\AnimationImageRenderer\AnimationImageRenderer.h" />
+    <ClInclude Include="MyScript\UI\SelectStageNumber\SelectStageNumber.h" />
+    <ClInclude Include="packages\DxLib.vc.3.2.4.3\build\native\include\DxCompileConfig.h" />
+    <ClInclude Include="packages\DxLib.vc.3.2.4.3\build\native\include\DxDataType.h" />
+    <ClInclude Include="packages\DxLib.vc.3.2.4.3\build\native\include\DxDataTypeWin.h" />
+    <ClInclude Include="packages\DxLib.vc.3.2.4.3\build\native\include\DxFunctionWin.h" />
+    <ClInclude Include="packages\DxLib.vc.3.2.4.3\build\native\include\DxLib.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\access.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\archives\adapters.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\archives\binary.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\archives\json.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\archives\portable_binary.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\archives\xml.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\cereal.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\details\helpers.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\details\polymorphic_impl.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\details\polymorphic_impl_fwd.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\details\static_object.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\details\traits.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\details\util.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\base64.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\allocators.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\document.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\encodedstream.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\encodings.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\error\en.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\error\error.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\filereadstream.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\filewritestream.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\fwd.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\biginteger.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\diyfp.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\dtoa.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\ieee754.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\itoa.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\meta.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\pow10.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\regex.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\stack.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\strfunc.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\strtod.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\internal\swap.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\istreamwrapper.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\memorybuffer.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\memorystream.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\msinttypes\inttypes.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\msinttypes\stdint.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\ostreamwrapper.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\pointer.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\prettywriter.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\rapidjson.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\reader.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\schema.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\stream.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\stringbuffer.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidjson\writer.h" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidxml\rapidxml.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidxml\rapidxml_iterators.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidxml\rapidxml_print.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\external\rapidxml\rapidxml_utils.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\macros.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\array.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\base_class.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\bitset.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\boost_variant.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\chrono.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\common.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\complex.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\concepts\pair_associative_container.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\deque.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\forward_list.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\functional.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\list.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\map.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\memory.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\polymorphic.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\queue.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\set.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\stack.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\string.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\tuple.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\unordered_map.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\unordered_set.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\utility.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\valarray.hpp" />
+    <ClInclude Include="packages\unofficial-flayan-cereal.1.2.2\build\native\include\cereal\types\vector.hpp" />
+    <ClInclude Include="Physics\Contact\Begin\IBeginContactable.h" />
+    <ClInclude Include="Physics\Contact\End\IEndContactable.h" />
+    <ClInclude Include="Physics\Contact\Hit\IHitContactable.h" />
+    <ClInclude Include="Physics\Physics.h" />
+    <ClInclude Include="Physics\Raycast\Raycast.h" />
+    <ClInclude Include="Physics\Sensor\Begin\IBeginSensorable.h" />
+    <ClInclude Include="Physics\Sensor\End\IEndSensorable.h" />
+    <ClInclude Include="Render\Render.h" />
+    <ClInclude Include="Render\RenderContent\Filter\RenderFilterContent.h" />
+    <ClInclude Include="Render\RenderContent\Graph\RenderGraphContent.h" />
+    <ClInclude Include="Render\RenderContent\RenderContent.h" />
+    <ClInclude Include="Render\RenderContent\Text\RenderTextContent.h" />
+    <ClInclude Include="Resource\IResource\IResource.h" />
+    <ClInclude Include="Resource\ManageContainer\Group\ResourceManageContainerGroup.h" />
+    <ClInclude Include="Resource\ManageContainer\ResourceManageContainerBase.h" />
+    <ClInclude Include="Scene\Content\Scene.hpp" />
+    <ClInclude Include="Scene\Manager\SceneManager.h" />
+    <ClInclude Include="Scene\ResourceManageContaienr\SceneResourceManageContainer.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d9509a09-d14a-44c6-b0e6-7ecf899e4e80}</ProjectGuid>
+    <RootNamespace>The_Dungeon</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalOptions>/bigobj</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC3_24d\DxLib_VC\プロジェクトに追加すべきファイル_VC用</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\DxLib.vc.3.2.4.3\build\native\DxLib.vc.targets" Condition="Exists('packages\DxLib.vc.3.2.4.3\build\native\DxLib.vc.targets')" />
+    <Import Project="packages\unofficial-flayan-cereal.1.2.2\build\native\unofficial-flayan-cereal.targets" Condition="Exists('packages\unofficial-flayan-cereal.1.2.2\build\native\unofficial-flayan-cereal.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\DxLib.vc.3.2.4.3\build\native\DxLib.vc.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\DxLib.vc.3.2.4.3\build\native\DxLib.vc.targets'))" />
+    <Error Condition="!Exists('packages\unofficial-flayan-cereal.1.2.2\build\native\unofficial-flayan-cereal.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\unofficial-flayan-cereal.1.2.2\build\native\unofficial-flayan-cereal.targets'))" />
+  </Target>
+</Project>

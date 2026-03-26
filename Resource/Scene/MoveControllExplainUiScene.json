@@ -1,0 +1,206 @@
+{
+    "Entities": [
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{580540AE-7C8A-4CBB-B651-4D6B5EC10054}"
+                    },
+                    "value1": "W",
+                    "value2": [
+                        {
+                            "polymorphic_id": 2147483649,
+                            "polymorphic_name": "Transform",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 130.0,
+                                        "y_": 802.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 5.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483650,
+                            "polymorphic_name": "ImageRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/KeyBoard/W.png",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{98614F70-FC0C-4126-88E8-6A58951AC5A2}"
+                    },
+                    "value1": "A",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 70.0,
+                                        "y_": 860.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 5.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/KeyBoard/A.png",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{69FB0F72-507C-474D-B039-2664485E98EC}"
+                    },
+                    "value1": "S",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 130.0,
+                                        "y_": 860.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 5.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/KeyBoard/S.png",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{1ACD0BB7-A8B3-4FA8-B141-B1B945D30519}"
+                    },
+                    "value1": "D",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 190.0,
+                                        "y_": 860.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 5.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/KeyBoard/D.png",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{418E841A-5328-4F1F-AC2A-471CAFDD5263}"
+                    },
+                    "value1": "MoveText",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 52.0,
+                                        "y_": 800.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 0.09700000286102295
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/MoveText.png",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

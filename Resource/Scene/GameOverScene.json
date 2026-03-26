@@ -1,0 +1,121 @@
+{
+    "Entities": [
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{9CCE12D3-E77D-47FD-8E41-2A991FC0164A}"
+                    },
+                    "value1": "GameOverText",
+                    "value2": [
+                        {
+                            "polymorphic_id": 2147483649,
+                            "polymorphic_name": "Transform",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 750.0,
+                                        "y_": -200.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 1.2999999523162842
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483650,
+                            "polymorphic_name": "ImageRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/GameOverText.png",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483651,
+                            "polymorphic_name": "AutoMove",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "move": {
+                                        "x_": 0.0,
+                                        "y_": 10.0
+                                    },
+                                    "moveDuration": 40
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{23D1F903-DC9C-4DF2-B582-BA197081FE57}"
+                    },
+                    "value1": "StartOverText",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 745.0,
+                                        "y_": 650.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 0.699999988079071
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483652,
+                            "polymorphic_name": "Ui::Button",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {}
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/StartOverText.png",
+                                    "renderOrder": 1000
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483653,
+                            "polymorphic_name": "GameOverScene::StartOverButton",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {}
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

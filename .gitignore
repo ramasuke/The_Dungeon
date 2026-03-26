@@ -1,0 +1,25 @@
+# ===== Build files =====
+*.exe
+*.obj
+*.iobj
+*.pdb
+*.ilk
+
+# ===== Build directories =====
+Debug/
+Release/
+x64/
+x86/
+
+# ===== Visual Studio =====
+.vs/
+*.vcxproj.user
+*.vcxproj.users
+
+# ===== Packages =====
+packages/
+*.nupkg
+
+# ===== Large files =====
+*.zip
+*.mp4

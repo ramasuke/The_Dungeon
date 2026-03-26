@@ -1,0 +1,21 @@
+{
+    "name": "Empty",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 0.0,
+                        "y_": 0.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.0
+                }
+            }
+        }
+    ]
+}

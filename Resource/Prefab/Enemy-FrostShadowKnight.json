@@ -1,0 +1,252 @@
+{
+    "name": "Enemy-FrostShadowKnight",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": -300.0,
+                        "y_": -100.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 2.0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": false,
+                    "size": {
+                        "x_": 15.0,
+                        "y_": 33.0
+                    },
+                    "bodyTypeId": 2,
+                    "density": 4.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": true,
+                    "enableHitEvent": true
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "Enemy::FrostShadowKnight",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "idleAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FrostShadowKnight/Idle.png",
+                                "splitCount": 5,
+                                "splitNum": {
+                                    "x_": 5,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 32,
+                                    "y_": 64
+                                },
+                                "effectDuration_frame": 3,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "walkAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483650,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FrostShadowKnight/Walk.png",
+                                "splitCount": 4,
+                                "splitNum": {
+                                    "x_": 4,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 32,
+                                    "y_": 64
+                                },
+                                "effectDuration_frame": 5,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "singleAttackAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483651,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FrostShadowKnight/SingleAttack.png",
+                                "splitCount": 8,
+                                "splitNum": {
+                                    "x_": 8,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 137,
+                                    "y_": 64
+                                },
+                                "effectDuration_frame": 5,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "doubleAttackAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483652,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FrostShadowKnight/DoubleAttack.png",
+                                "splitCount": 11,
+                                "splitNum": {
+                                    "x_": 11,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 137,
+                                    "y_": 64
+                                },
+                                "effectDuration_frame": 6,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "defenseAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483653,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FrostShadowKnight/Defense.png",
+                                "splitCount": 20,
+                                "splitNum": {
+                                    "x_": 20,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 53,
+                                    "y_": 64
+                                },
+                                "effectDuration_frame": 4,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "hurtAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483654,
+                            "data": {
+                                "resourcePath": "Resource/Animation/",
+                                "splitCount": 0,
+                                "splitNum": {
+                                    "x_": 0,
+                                    "y_": 0
+                                },
+                                "splitSize": {
+                                    "x_": 0,
+                                    "y_": 0
+                                },
+                                "effectDuration_frame": 3,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "deathAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483655,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FrostShadowKnight/Death.png",
+                                "splitCount": 11,
+                                "splitNum": {
+                                    "x_": 11,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 31,
+                                    "y_": 40
+                                },
+                                "effectDuration_frame": 3,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "health": {
+                        "value": 19
+                    },
+                    "physicsPower": {
+                        "value": 1
+                    },
+                    "dropComboCount": 10,
+                    "dropComboEnergy": {
+                        "value": 3
+                    },
+                    "singleAttackMotionArea": {
+                        "offset": {
+                            "x_": 0.0,
+                            "y_": 0.0
+                        },
+                        "size": {
+                            "x_": 110.0,
+                            "y_": 80.0
+                        }
+                    },
+                    "doubleAttackMotionArea": {
+                        "offset": {
+                            "x_": 0.0,
+                            "y_": 0.0
+                        },
+                        "size": {
+                            "x_": 240.0,
+                            "y_": 80.0
+                        }
+                    },
+                    "singleAttackAreaModel": {
+                        "offset": {
+                            "x_": 0.0,
+                            "y_": 0.0
+                        },
+                        "size": {
+                            "x_": 80.0,
+                            "y_": 40.0
+                        },
+                        "despawnDuration": 0
+                    },
+                    "frostEnergyShootOffset": {
+                        "x_": 30.0,
+                        "y_": -50.0
+                    },
+                    "frostEnergyShootPrefabPath": "Resource/Prefab/Enemy-FrostShadowKnight.json",
+                    "doubleAttackAreaModel": {
+                        "offset": {
+                            "x_": 0.0,
+                            "y_": 0.0
+                        },
+                        "size": {
+                            "x_": 160.0,
+                            "y_": 40.0
+                        },
+                        "despawnDuration": 0
+                    }
+                }
+            }
+        }
+    ]
+}

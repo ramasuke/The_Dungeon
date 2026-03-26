@@ -1,0 +1,97 @@
+{
+    "Entities": [
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{C995811A-0990-4EA3-B69F-3432290F8B1B}"
+                    },
+                    "value1": "GameClearText",
+                    "value2": [
+                        {
+                            "polymorphic_id": 2147483649,
+                            "polymorphic_name": "Transform",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 750.0,
+                                        "y_": 200.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 7.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483650,
+                            "polymorphic_name": "ImageRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/GameClearText.png",
+                                    "renderOrder": 3000
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483651,
+                            "polymorphic_name": "GameClearScene::GameClearText",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "gameClearParticlePrefabFilePath_": "Resource/Prefab/GameClearParticle.json"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{7467D342-930F-49FF-97A9-8CF39173A518}"
+                    },
+                    "value1": "Text",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 750.0,
+                                        "y_": 200.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 0.15000000596046449
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/GameClearTextText.png",
+                                    "renderOrder": 3001
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

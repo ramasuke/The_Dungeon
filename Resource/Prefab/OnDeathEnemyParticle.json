@@ -1,0 +1,62 @@
+{
+    "name": "OnDeathEnemyParticle",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 300.0,
+                        "y_": 300.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.350000023841858
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 5
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "Particle",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "animationModel": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/OnDeathEnemyParticle.png",
+                                "splitCount": 12,
+                                "splitNum": {
+                                    "x_": 12,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 48,
+                                    "y_": 64
+                                },
+                                "effectDuration_frame": 6,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "onDestroyParticleDuration": 100
+                }
+            }
+        }
+    ]
+}

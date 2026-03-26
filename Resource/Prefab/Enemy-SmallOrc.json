@@ -1,0 +1,228 @@
+{
+    "name": "Enemy-SmallOrc",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 100.0,
+                        "y_": 250.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 2.4000000953674318
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": false,
+                    "size": {
+                        "x_": 15.0,
+                        "y_": 20.0
+                    },
+                    "bodyTypeId": 2,
+                    "density": 5.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": true,
+                    "enableHitEvent": true
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "Enemy::SmallOrc",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "idleAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/SmallOrc/Idle.png",
+                                "splitCount": 6,
+                                "splitNum": {
+                                    "x_": 6,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 100,
+                                    "y_": 100
+                                },
+                                "effectDuration_frame": 5,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "walkAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483650,
+                            "data": {
+                                "resourcePath": "Resource\\Animation\\Enemy\\SmallOrc\\Walk.png",
+                                "splitCount": 8,
+                                "splitNum": {
+                                    "x_": 8,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 100,
+                                    "y_": 100
+                                },
+                                "effectDuration_frame": 5,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "normalAttackAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483651,
+                            "data": {
+                                "resourcePath": "Resource\\Animation\\Enemy\\SmallOrc\\NormalAttack.png",
+                                "splitCount": 6,
+                                "splitNum": {
+                                    "x_": 6,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 100,
+                                    "y_": 100
+                                },
+                                "effectDuration_frame": 5,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "chargeAttackAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483652,
+                            "data": {
+                                "resourcePath": "Resource\\Animation\\Enemy\\SmallOrc\\ChargeAttack.png",
+                                "splitCount": 6,
+                                "splitNum": {
+                                    "x_": 6,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 100,
+                                    "y_": 100
+                                },
+                                "effectDuration_frame": 5,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "hurtAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483653,
+                            "data": {
+                                "resourcePath": "Resource\\Animation\\Enemy\\SmallOrc\\Hurt.png",
+                                "splitCount": 4,
+                                "splitNum": {
+                                    "x_": 4,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 100,
+                                    "y_": 100
+                                },
+                                "effectDuration_frame": 4,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "deathAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483654,
+                            "data": {
+                                "resourcePath": "Resource\\Animation\\Enemy\\SmallOrc\\Death.png",
+                                "splitCount": 4,
+                                "splitNum": {
+                                    "x_": 4,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 100,
+                                    "y_": 100
+                                },
+                                "effectDuration_frame": 9,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "health": {
+                        "value": 7
+                    },
+                    "physicsPower": {
+                        "value": 1
+                    },
+                    "dropComboCount": 10,
+                    "dropComboEnergy": {
+                        "value": 1
+                    },
+                    "startAttackMotionArea": {
+                        "offset": {
+                            "x_": 0.0,
+                            "y_": 0.0
+                        },
+                        "size": {
+                            "x_": 100.0,
+                            "y_": 50.0
+                        }
+                    },
+                    "startChargeAttackMotionArea": {
+                        "offset": {
+                            "x_": 0.0,
+                            "y_": 0.0
+                        },
+                        "size": {
+                            "x_": 70.0,
+                            "y_": 30.0
+                        }
+                    },
+                    "normalAttackAreaModel": {
+                        "offset": {
+                            "x_": 0.0,
+                            "y_": 0.0
+                        },
+                        "size": {
+                            "x_": 48.0,
+                            "y_": 30.0
+                        },
+                        "despawnDuration": 0
+                    },
+                    "chargeAttackAreaModel": {
+                        "offset": {
+                            "x_": 0.0,
+                            "y_": 0.0
+                        },
+                        "size": {
+                            "x_": 60.0,
+                            "y_": 30.0
+                        },
+                        "despawnDuration": 2
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "Prop-BigRock",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": -600.0,
+                        "y_": 0.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 4.0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "SpriteRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderFilePath": "Resource/Sprite/Prop/BigRock.png",
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": false,
+                    "size": {
+                        "x_": 58.0,
+                        "y_": 54.0
+                    },
+                    "bodyTypeId": 1,
+                    "density": 1.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": true,
+                    "enableHitEvent": true
+                }
+            }
+        }
+    ]
+}

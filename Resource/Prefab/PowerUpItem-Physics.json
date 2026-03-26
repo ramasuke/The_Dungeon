@@ -1,0 +1,47 @@
+{
+    "name": "PowerUpItem-Physics",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 300.0,
+                        "y_": 100.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.4800000190734864
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "SpriteRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderFilePath": "Resource/Sprite/PhysicsPower.png",
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "Player::PhysicsPowerUpItem",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "value": {
+                        "value": 1
+                    },
+                    "despawnDuration": 30
+                }
+            }
+        }
+    ]
+}

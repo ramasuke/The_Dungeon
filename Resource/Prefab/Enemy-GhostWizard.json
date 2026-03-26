@@ -1,0 +1,131 @@
+{
+    "name": "Enemy-GhostWizard",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 100.0,
+                        "y_": -200.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.399999976158142
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": false,
+                    "size": {
+                        "x_": 20.0,
+                        "y_": 35.0
+                    },
+                    "bodyTypeId": 2,
+                    "density": 1.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": true,
+                    "enableHitEvent": true
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "Enemy::GhostWizard",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "health": {
+                        "value": 4
+                    },
+                    "firePower": {
+                        "hitDamage": 1,
+                        "burnDamage": 1,
+                        "burnDuration": 5
+                    },
+                    "dropComboCount": 13,
+                    "dropComboEnergy": {
+                        "value": 1
+                    },
+                    "idleAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/GhostWizard/Idle.png",
+                                "splitCount": 10,
+                                "splitNum": {
+                                    "x_": 10,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 80,
+                                    "y_": 80
+                                },
+                                "effectDuration_frame": 3,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "avoidAnimatoin": {
+                        "ptr_wrapper": {
+                            "id": 2147483650,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/GhostWizard/FlyForward.png",
+                                "splitCount": 6,
+                                "splitNum": {
+                                    "x_": 6,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 80,
+                                    "y_": 80
+                                },
+                                "effectDuration_frame": 4,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "deathAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483651,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/GhostWizard/Death.png",
+                                "splitCount": 10,
+                                "splitNum": {
+                                    "x_": 10,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 80,
+                                    "y_": 80
+                                },
+                                "effectDuration_frame": 8,
+                                "isRoop": false
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

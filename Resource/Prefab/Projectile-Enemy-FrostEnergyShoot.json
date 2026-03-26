@@ -1,0 +1,87 @@
+{
+    "name": "Projectile-Enemy-FrostEnergyShoot",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 400.0,
+                        "y_": 100.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 2.0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": -1
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "Projectile::FrostEnergyShoot",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "damage": {
+                        "value": 1
+                    },
+                    "summonAttackAreaModel": {
+                        "offset": {
+                            "x_": -40.0,
+                            "y_": 20.0
+                        },
+                        "size": {
+                            "x_": 10.0,
+                            "y_": 10.0
+                        },
+                        "despawnDuration": 0
+                    },
+                    "summonAttackAreaDuration": 220
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "Particle",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "animationModel": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Projectile/FrostEnergyShoot.png",
+                                "splitCount": 20,
+                                "splitNum": {
+                                    "x_": 20,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 133,
+                                    "y_": 69
+                                },
+                                "effectDuration_frame": 6,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "onDestroyParticleDuration": 200
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Prop-WaterPot",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 200.0,
+                        "y_": -100.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 2.4000000953674318
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "SpriteRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderFilePath": "Resource/Sprite/Prop/WaterPot.png",
+                    "renderOrder": 0
+                }
+            }
+        }
+    ]
+}

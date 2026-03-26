@@ -1,0 +1,53 @@
+{
+    "Entities": [
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{30BADEAF-9924-4073-8324-E081884B70E9}"
+                    },
+                    "value1": "Movie",
+                    "value2": [
+                        {
+                            "polymorphic_id": 2147483649,
+                            "polymorphic_name": "Transform",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 0.0,
+                                        "y_": 0.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 1.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483650,
+                            "polymorphic_name": "MovieRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "resourceFilePath": "Resource/Movie/UseSkillExplainUi.mp4",
+                                    "transparentColor": {
+                                        "r": 0,
+                                        "g": 255,
+                                        "b": 0
+                                    },
+                                    "movieHandle": 124519306,
+                                    "renderOrder": 0,
+                                    "isLoop": false,
+                                    "isFilter": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

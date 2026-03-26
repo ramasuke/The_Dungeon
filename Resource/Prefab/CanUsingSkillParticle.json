@@ -1,0 +1,76 @@
+{
+    "name": "CanUsingSkillParticle",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 200.0,
+                        "y_": -300.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.5
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 1
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "Particle",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "animationModel": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/HolyLightAura.png",
+                                "splitCount": 7,
+                                "splitNum": {
+                                    "x_": 5,
+                                    "y_": 2
+                                },
+                                "splitSize": {
+                                    "x_": 96,
+                                    "y_": 96
+                                },
+                                "effectDuration_frame": 6,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "onDestroyParticleDuration": 1316134911
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "Player::CanUseSkillParticle",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "followOffsetPos": {
+                        "x_": 0.0,
+                        "y_": 6.0
+                    }
+                }
+            }
+        }
+    ]
+}

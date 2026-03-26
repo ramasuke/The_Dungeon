@@ -1,0 +1,92 @@
+{
+    "name": "Projectile-Player-SmallFireBall",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": 400.0,
+                        "y_": -200.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 3.5999999046325685
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": true,
+                    "size": {
+                        "x_": 13.0,
+                        "y_": 13.0
+                    },
+                    "bodyTypeId": 2,
+                    "density": 1.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": false,
+                    "enableHitEvent": false
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 1
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "PlayerAttackArea",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {}
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483653,
+            "polymorphic_name": "Projectile::SmallFireBall",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "shootAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Projectile/SmallFireBallShot.png",
+                                "splitCount": 4,
+                                "splitNum": {
+                                    "x_": 1,
+                                    "y_": 4
+                                },
+                                "splitSize": {
+                                    "x_": 64,
+                                    "y_": 64
+                                },
+                                "effectDuration_frame": 3,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "speed": 0.20000000298023225
+                }
+            }
+        }
+    ]
+}

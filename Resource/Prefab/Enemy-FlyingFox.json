@@ -1,0 +1,188 @@
+{
+    "name": "Enemy-FlyingFox",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": -150.0,
+                        "y_": 150.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 1.2999999523162842
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 0
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": false,
+                    "size": {
+                        "x_": 20.0,
+                        "y_": 20.0
+                    },
+                    "bodyTypeId": 2,
+                    "density": 1.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": true,
+                    "enableHitEvent": true
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "Enemy::FlyingFox",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "idleAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FlyingFox/Flight.png",
+                                "splitCount": 8,
+                                "splitNum": {
+                                    "x_": 8,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 150,
+                                    "y_": 150
+                                },
+                                "effectDuration_frame": 5,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "flightAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483650,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FlyingFox/Flight.png",
+                                "splitCount": 8,
+                                "splitNum": {
+                                    "x_": 8,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 150,
+                                    "y_": 150
+                                },
+                                "effectDuration_frame": 5,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "attackAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483651,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FlyingFox/Attack.png",
+                                "splitCount": 8,
+                                "splitNum": {
+                                    "x_": 8,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 150,
+                                    "y_": 150
+                                },
+                                "effectDuration_frame": 3,
+                                "isRoop": false
+                            }
+                        }
+                    },
+                    "hurtAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483652,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FlyingFox/Hurt.png",
+                                "splitCount": 4,
+                                "splitNum": {
+                                    "x_": 4,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 150,
+                                    "y_": 150
+                                },
+                                "effectDuration_frame": 5,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "deathAnimation": {
+                        "ptr_wrapper": {
+                            "id": 2147483653,
+                            "data": {
+                                "resourcePath": "Resource/Animation/Enemy/FlyingFox/Death.png",
+                                "splitCount": 4,
+                                "splitNum": {
+                                    "x_": 4,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 150,
+                                    "y_": 150
+                                },
+                                "effectDuration_frame": 8,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "health": {
+                        "value": 0
+                    },
+                    "physicsPower": {
+                        "value": 1
+                    },
+                    "dropComboCount": 2,
+                    "dropComboEnergy": {
+                        "value": 1
+                    },
+                    "startAttackMotionArea": {
+                        "offset": {
+                            "x_": 0.0,
+                            "y_": 0.0
+                        },
+                        "size": {
+                            "x_": 70.0,
+                            "y_": 50.0
+                        }
+                    },
+                    "attackAreaModel": {
+                        "offset": {
+                            "x_": 0.0,
+                            "y_": 0.0
+                        },
+                        "size": {
+                            "x_": 54.0,
+                            "y_": 20.0
+                        },
+                        "despawnDuration": 0
+                    }
+                }
+            }
+        }
+    ]
+}

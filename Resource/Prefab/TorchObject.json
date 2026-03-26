@@ -1,0 +1,84 @@
+{
+    "name": "TorchObject",
+    "Components": [
+        {
+            "polymorphic_id": 2147483649,
+            "polymorphic_name": "Transform",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "position": {
+                        "x_": -300.0,
+                        "y_": 500.0
+                    },
+                    "rotation": 0.0,
+                    "scale": 2.799999952316284
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483650,
+            "polymorphic_name": "AnimationRenderer",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "renderOrder": 11
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483651,
+            "polymorphic_name": "TorchObject",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "animationModel": {
+                        "ptr_wrapper": {
+                            "id": 2147483649,
+                            "data": {
+                                "resourcePath": "Resource/Animation/torch.png",
+                                "splitCount": 5,
+                                "splitNum": {
+                                    "x_": 5,
+                                    "y_": 1
+                                },
+                                "splitSize": {
+                                    "x_": 16,
+                                    "y_": 16
+                                },
+                                "effectDuration_frame": 12,
+                                "isRoop": true
+                            }
+                        }
+                    },
+                    "dropComboEnergy": {
+                        "value": 1
+                    }
+                }
+            }
+        },
+        {
+            "polymorphic_id": 2147483652,
+            "polymorphic_name": "BoxCollider",
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {},
+                    "isSensor": false,
+                    "size": {
+                        "x_": 1.0,
+                        "y_": 1.0
+                    },
+                    "bodyTypeId": 1,
+                    "density": 1.0,
+                    "friction": 0.30000001192092898,
+                    "enableContactEvent": true,
+                    "enableHitEvent": true
+                }
+            }
+        }
+    ]
+}

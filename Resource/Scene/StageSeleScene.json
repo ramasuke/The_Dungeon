@@ -1,0 +1,413 @@
+{
+    "Entities": [
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{5894CDAF-30EC-4140-BF4D-2ABE02E6F62F}"
+                    },
+                    "value1": "BackGroundBook",
+                    "value2": [
+                        {
+                            "polymorphic_id": 2147483649,
+                            "polymorphic_name": "Transform",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 770.0,
+                                        "y_": 480.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 0.30000001192092898
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483650,
+                            "polymorphic_name": "ImageRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/StageSelectBook.png",
+                                    "renderOrder": 1004
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{E9078B15-485E-402C-AAD6-DC930330BFE1}"
+                    },
+                    "value1": "StageNumber",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 980.0,
+                                        "y_": 570.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 2.0999999046325685
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483651,
+                            "polymorphic_name": "TextRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "worldSpace": true,
+                                    "text": "Stage1",
+                                    "color": {
+                                        "r": 0,
+                                        "g": 0,
+                                        "b": 0
+                                    },
+                                    "fontFilePath": "",
+                                    "renderOrder": 3000
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483652,
+                            "polymorphic_name": "StageSelectScene::SelectStageNumber",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "stageNames_": [
+                                        "Tutorial",
+                                        "Stage1",
+                                        "Stage2",
+                                        "BossStage",
+                                        "Stage4"
+                                    ],
+                                    "onNextStageSelect_": {
+                                        "entityGUID: ": {
+                                            "value0": "{7B247A1B-0AD7-4742-A4EC-E052C3F68176}"
+                                        }
+                                    },
+                                    "onMinusStageSelect_": {
+                                        "entityGUID: ": {
+                                            "value0": "{AD98F322-E172-48AC-A0B4-2DFC5A7C9166}"
+                                        }
+                                    },
+                                    "stageMovieRenderer_": {
+                                        "entityGUID: ": {
+                                            "value0": "{B352C0DD-52AB-44F4-88F1-58E5499F58A7}"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{7B247A1B-0AD7-4742-A4EC-E052C3F68176}"
+                    },
+                    "value1": "OnNextStageButton",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 1223.0,
+                                        "y_": 589.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 3.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/RightArrow.png",
+                                    "renderOrder": 3333
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483653,
+                            "polymorphic_name": "Ui::Button",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {}
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{AD98F322-E172-48AC-A0B4-2DFC5A7C9166}"
+                    },
+                    "value1": "OnMinusStageButton",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 850.0,
+                                        "y_": 589.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 3.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/RightArrow.png",
+                                    "renderOrder": 3333
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 5,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {}
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{6E36B283-F300-4350-82ED-EC2A4F9EDE82}"
+                    },
+                    "value1": "PlayButton",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 1035.0,
+                                        "y_": 670.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 0.05000000074505806
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 5,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {}
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "renderSpriteFilePath": "Resource/Sprite/PlayButton1.png",
+                                    "renderOrder": 3333
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483654,
+                            "polymorphic_name": "PauseScene::GameStartButton",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "gameStartText": {
+                                        "entityGUID: ": {
+                                            "value0": "{BBE257CD-FF83-48D0-A399-E8463C0ADEB0}"
+                                        }
+                                    },
+                                    "sceneNames_": [
+                                        "Resource/Scene/TutorialScene.json",
+                                        "Resource/Scene/Dungeon1-1.json",
+                                        "Resource/Scene/Dungeon1-2.json",
+                                        "Resource/Scene/Dungeon1-3.json",
+                                        "Resource/Scene/Dungeon1-4.json"
+                                    ],
+                                    "selectStageNumber_": {
+                                        "entityGUID: ": {
+                                            "value0": "{E9078B15-485E-402C-AAD6-DC930330BFE1}"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{B7E1EBD3-8202-47C5-B658-B84984B023D3}"
+                    },
+                    "value1": "PlayerAnimationImage",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 550.0,
+                                        "y_": 450.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 13.0
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483655,
+                            "polymorphic_name": "AnimationImageRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "animation_": {
+                                        "ptr_wrapper": {
+                                            "id": 2147483649,
+                                            "data": {
+                                                "resourcePath": "Resource/Animation/Human_Soldier_Sword_Shield_Idle-Sheet.png",
+                                                "splitCount": 6,
+                                                "splitNum": {
+                                                    "x_": 6,
+                                                    "y_": 1
+                                                },
+                                                "splitSize": {
+                                                    "x_": 96,
+                                                    "y_": 96
+                                                },
+                                                "effectDuration_frame": 10,
+                                                "isRoop": true
+                                            }
+                                        }
+                                    },
+                                    "renderOrder": 3333,
+                                    "offsetPos": {
+                                        "x_": 0.0,
+                                        "y_": 0.0
+                                    },
+                                    "isReverseX": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "polymorphic_id": 1073741824,
+            "ptr_wrapper": {
+                "valid": 1,
+                "data": {
+                    "value0": {
+                        "value0": "{B352C0DD-52AB-44F4-88F1-58E5499F58A7}"
+                    },
+                    "value1": "StageMovie",
+                    "value2": [
+                        {
+                            "polymorphic_id": 1,
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "value0": {},
+                                    "position": {
+                                        "x_": 1024.0,
+                                        "y_": 334.0
+                                    },
+                                    "rotation": 0.0,
+                                    "scale": 0.23000000417232514
+                                }
+                            }
+                        },
+                        {
+                            "polymorphic_id": 2147483656,
+                            "polymorphic_name": "MovieRenderer",
+                            "ptr_wrapper": {
+                                "valid": 1,
+                                "data": {
+                                    "resourceFilePath": "Resource/Movie/Dungeon1-1.mp4",
+                                    "transparentColor": {
+                                        "r": 0,
+                                        "g": 255,
+                                        "b": 0
+                                    },
+                                    "movieHandle": 70255271,
+                                    "renderOrder": 4000,
+                                    "isLoop": true,
+                                    "isFilter": false
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
