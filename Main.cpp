@@ -15,3 +15,6 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
     application->OnStartGameRoopAsync();
     application->OnExit();
 }
+
+
+
